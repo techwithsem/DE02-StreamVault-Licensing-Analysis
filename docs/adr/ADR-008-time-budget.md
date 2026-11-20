@@ -19,4 +19,4 @@ The brief requires a measured time budget but leaves the number to Evalu8. Adjoa
 If the real budget on Evalu8 is under 3 seconds, 500 titles won't fit as written. The fix is known: stage 2 (reading about 1,000 JSON files) takes about 90% of the time, so saving the flattened tables to one file after the first run would cut it to well under a second.
 
 ## What survives
-Measured at 127, 500 and 5,000 titles (`scripts/scale_test.py`): about 7 ms per title, rising roughly in a straight line. 500 titles take about 3.5 seconds (5.2 s on the slowest run), inside the budget with room to spare.
+Measured at 127, 500 and 5,000 titles (`python -m scripts.scale_test`): about 6–7 ms per title, rising roughly in a straight line. 500 titles take about 3–3.5 seconds (5.2 s on the slowest run ever recorded), inside the budget with room to spare.

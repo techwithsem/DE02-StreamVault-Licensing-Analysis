@@ -13,7 +13,7 @@ Stages 2 to 5 must finish within **10 seconds** for next year's list of about 50
 | Runs | The real 127-row list: one run per `python StreamVault.py`. The scaling test: 5 runs per size, and I report the **median** run. |
 | Warm or cold | Warm: the saved answers already on disk, Python already installed. The first run after installing can be much slower on this laptop, because Windows security scans new files (seen once at about 7 minutes for the test suite). That is outside my code, so it's left out of the figures. |
 | Test data at 500 and 5,000 | The 112 real films copied under new ids (each copy gets its own franchise id), written to a temporary folder. Same shape as real data; no network. |
-| How to reproduce | `python StreamVault.py` (prints the per-stage table, writes `out/timing.csv`) · `python scripts/scale_test.py` → `out/scale_test.csv` · `python scripts/benchmark_apply.py` → `out/benchmark_apply.csv` |
+| How to reproduce | `python StreamVault.py` (prints the per-stage table, writes `out/timing.csv`) · `python -m scripts.scale_test` → `out/scale_test.csv` · `python -m scripts.benchmark_apply` → `out/benchmark_apply.csv` |
 
 ## Results
 
@@ -31,20 +31,20 @@ This is the last of three back-to-back runs (2.10 s, 1.45 s, 1.42 s). On an earl
 ### Growing the list
 | Titles | Median of 5 (s) | Slowest (s) | Stage 2 (s) | Stage 3 (s) | Stage 4 (s) | Per title (ms) |
 |---:|---:|---:|---:|---:|---:|---:|
-| 127 | 1.70 | 1.77 | 1.08 | 0.04 | 0.59 | 13.4 |
-| **500** | **3.50** | **5.22** | 3.05 | 0.04 | 0.43 | 7.0 |
-| 5,000 | 33.91 | 35.41 | 33.05 | 0.09 | 0.56 | 6.8 |
+| 127 | 1.09 | 1.12 | 0.69 | 0.04 | 0.36 | 8.6 |
+| **500** | **3.15** | **3.27** | 2.75 | 0.05 | 0.36 | 6.3 |
+| 5,000 | 34.47 | 35.72 | 33.86 | 0.11 | 0.50 | 6.9 |
 
-Above 500 titles, the time per title stays flat at about 7 ms, so the run grows in a straight line. (At 127 titles, fixed start-up costs make the per-title figure look higher.) **500 titles take about 3.5 seconds, with the slowest of 5 runs at 5.2 seconds, inside the budget.** Stage 2 (opening and reading about 1,000 small files) is about 90% of the time. The KPI stage hardly grows: about half a second whether there are 127 titles or 5,000.
+These are the figures in `out/scale_test.csv` from the latest run. From 500 titles up, the time per title stays flat at about 6–7 ms, so the run grows in a straight line. (At 127 titles, fixed start-up costs make the per-title figure look higher.) **500 titles take about 3.1 seconds, inside the budget.** An earlier run on a busier day took 3.5 seconds, with the slowest single run at 5.2 seconds, which is still inside the budget. Stage 2 (opening and reading about 1,000 small files) is about 90% of the time. The KPI stage hardly grows: about half a second whether there are 127 titles or 5,000.
 
 ### Before and after: row by row vs whole column
 The core calculation (return multiple, franchise or standalone, median per group), written both ways, with the same answer checked each time:
 
 | Titles | Row by row (`apply`, before) | Whole column (after) | Faster by |
 |---:|---:|---:|---:|
-| 127 | 43.2 ms | 1.51 ms | 29× |
-| 500 | 167.5 ms | 1.61 ms | 104× |
-| 5,000 | 1,939.4 ms | 5.21 ms | 372× |
+| 127 | 25.4 ms | 0.99 ms | 26× |
+| 500 | 95.7 ms | 1.04 ms | 92× |
+| 5,000 | 999.4 ms | 1.82 ms | 548× |
 
 The gap widens as the list grows: row-by-row time rises with every film, while the whole-column version hardly moves. The pipeline uses only the whole-column version, and a test fails if a row loop is added (`test_no_row_loops_in_the_analysis_code`).
 

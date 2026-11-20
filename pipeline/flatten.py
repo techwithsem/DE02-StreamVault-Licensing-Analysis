@@ -11,11 +11,15 @@ from pipeline import config
 from pipeline.joins import checked_merge
 
 
-def read_raw(tmdb_ids):
-    """loading the saved details and credits bodies for the films that were kept."""
+def read_raw(tmdb_ids, raw_dir=None):
+    """loading the saved details and credits bodies for the films that were kept.
+
+    raw_dir defaults to data/raw; the scaling test is passing its own folder.
+    """
+    raw_dir = raw_dir or config.RAW_DIR
     details, credits, fetched = [], [], []
     for tmdb_id in tmdb_ids:
-        folder = config.RAW_DIR / str(tmdb_id)
+        folder = raw_dir / str(tmdb_id)
         d = json.loads((folder / "details.json").read_text(encoding="utf-8"))
         c = json.loads((folder / "credits.json").read_text(encoding="utf-8"))
         details.append(d["body"])
@@ -102,9 +106,9 @@ def build_directors(credits):
     return directors.reset_index(drop=True)
 
 
-def run(kept_ids):
+def run(kept_ids, raw_dir=None):
     """running stage 2 and returning (films, cast, directors, credits_film_ids, parsing)."""
-    details, credits, fetched = read_raw(kept_ids)
+    details, credits, fetched = read_raw(kept_ids, raw_dir)
     films, parsing = build_films(details, fetched)
     cast = build_cast(credits)
     directors = build_directors(credits)

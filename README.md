@@ -39,7 +39,15 @@ python -m venv .venv
 
 In VS Code, also press `Ctrl+Shift+P` → **Python: Select Interpreter** → pick the one inside `.venv`.
 
-**3. Install the packages** (exact versions are pinned)
+**3. Install the packages**
+
+For an exact copy of the tested setup (every package, including indirect ones, checked against its checksum):
+
+```bash
+pip install --require-hashes -r requirements.lock
+```
+
+If that fails on your system, use the main packages only (same versions, pinned):
 
 ```bash
 pip install -r requirements.txt
@@ -64,9 +72,9 @@ Get a key at <https://www.themoviedb.org/settings/api>. The short "API Key" or t
 | `python StreamVault.py` | The full analysis. Uses saved TMDb answers where they exist. | under 2 s with saved answers; about 3 min on a first run with none |
 | `python StreamVault.py --spot-check` | The same, plus re-checks 14 films against TMDb live. | about 15 s more |
 | `python StreamVault.py --refresh` | Ignores saved answers and fetches everything again (do this each quarter). | about 3 min |
-| `python -m pytest` | Runs the 25 tests. They use a fake TMDb, so no key or internet is needed. | about 2 s |
-| `python scripts/scale_test.py` | Times the analysis at 127, 500 and 5,000 titles. | about 3 min |
-| `python scripts/benchmark_apply.py` | Times row-by-row against whole-column maths. | a few seconds |
+| `python -m pytest` | Runs the 28 tests. They use a fake TMDb, so no key or internet is needed. | about 2 s |
+| `python -m scripts.scale_test` | Times the analysis at 127, 500 and 5,000 titles. | about 3 min |
+| `python -m scripts.benchmark_apply` | Times row-by-row against whole-column maths. | a few seconds |
 
 **The run stops with a clear message if:**
 - the key is missing or wrong
@@ -101,13 +109,13 @@ To change a rule, edit one setting. Every one is explained in `docs/adr/`.
 
 | Stage | What happens | Code | Output |
 |---|---|---|---|
-| 1. Fetch | Reads the id list as text, sorts every row (TMDb id, IMDb id, blank, junk), translates IMDb ids, marks repeats, fetches details and credits once per film, and saves every answer with a timestamp. | `pipeline/ids.py`, `fetch.py`, `acquire.py` | `data/id_accounting.csv`, `data/fetch_log.csv`, `data/raw/` |
+| 1. Fetch | Reads the id list as text, sorts every row (TMDb id, IMDb id, blank, junk), translates IMDb ids, marks repeats, fetches details and credits once per film, and saves every answer with a timestamp. | `pipeline/ids.py`, `pipeline/fetch.py`, `pipeline/acquire.py`, `pipeline/manifest.py` | `data/id_accounting.csv`, `data/fetch_log.csv`, `data/raw/`, `data/raw_manifest.csv` |
 | 2. Flatten | Turns the saved answers into tables: one row per film, one row per film per cast credit, one row per film per director. | `pipeline/flatten.py` | `out/films.csv` |
 | 3. Check | Profiles every column, flags anything odd (never deletes), and stops if a hard check fails. | `pipeline/checks.py` | `profiling/checks.csv`, `profiling/profile.csv`, `profiling/flags.csv`, `profiling/flagged_films.csv`, `profiling/joins.csv`, `profiling/parse_report.csv` |
-| 4. KPIs | Return per dollar of budget, franchise vs standalone, both windows, under four cleaning choices; first film vs sequels; franchise and talent tables; shortlist. No row loops. | `pipeline/kpis.py`, `analysis.py` | `out/kpi_by_window.csv`, `out/sensitivity.csv`, `out/entry_pattern.csv`, `out/franchises_*.csv`, `out/standalones.csv`, `out/talent.csv`, `out/shortlist_*.csv` |
+| 4. KPIs | Return per dollar of budget, franchise vs standalone, both windows, under four cleaning choices; first film vs sequels; franchise and talent tables; shortlist. No row loops. | `pipeline/kpis.py`, `pipeline/analysis.py` | `out/kpi_by_window.csv`, `out/sensitivity.csv`, `out/entry_pattern.csv`, `out/franchises_*.csv`, `out/standalones.csv`, `out/talent.csv`, `out/shortlist_*.csv` |
 | 5. Write | Saves every table, a plain-English summary and the timings. | `pipeline/report.py` | `out/summary.md`, `out/timing.csv` |
 | Bundles | Fetches each franchise's full film list, to show what a whole bundle earned. | `pipeline/bundles.py` | `out/bundle_completeness.csv`, `out/bundle_films.csv` |
 | Spot-check | Re-fetches a chosen sample live and compares it with the pipeline's output. | `pipeline/spotcheck.py` | `out/spot_check.csv` |
 
-**About the saved answers (`data/raw/`).** They're committed on purpose, so anyone who clones the project gets the exact numbers in the memo (snapshot of 20 Nov 2026) without calling TMDb. Use `--refresh` to update them. They hold no API key.
+**About the saved answers (`data/raw/`).** They're committed on purpose, so anyone who clones the project gets the exact numbers in the memo without calling TMDb. They hold no API key. `data/raw_manifest.csv` ties them to one snapshot: it lists every saved file with its checksum and the time TMDb answered (currently 306 files, fetched 20 Nov 2026, 07:54–08:07 UTC). Every run rebuilds it and prints whether any saved answer was added, removed or changed, so a drifted snapshot is noticed straight away. Use `--refresh` to update the answers, then quote the new date.
 

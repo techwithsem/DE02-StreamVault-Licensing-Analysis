@@ -3,21 +3,21 @@
 it is copying the real cached answers under new ids into a temporary folder,
 so the test needs no network and leaves data/raw untouched.
 
-    python scripts/scale_test.py
+run it from the project folder as a module, so `pipeline` is found:
+
+    python -m scripts.scale_test
 """
 
 import json
 import shutil
 import statistics
-import sys
 import tempfile
 import time
 from pathlib import Path
 
 import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from pipeline import analysis, config  # noqa: E402
+from pipeline import analysis, config
 
 SIZES = [127, 500, 5000]
 RUNS = 5
@@ -49,33 +49,30 @@ def build_fake_cache(real_ids, size, folder):
 def main():
     accounting = pd.read_csv(config.ID_ACCOUNTING_FILE, dtype={"tmdb_id": "Int64"})
     real_ids = accounting.loc[accounting["outcome"].str.startswith("kept"), "tmdb_id"].astype(int).tolist()
-    real_raw = config.RAW_DIR
     rows = []
-    try:
-        for size in SIZES:
-            folder = Path(tempfile.mkdtemp(prefix=f"scale{size}_"))
+    for size in SIZES:
+        folder = Path(tempfile.mkdtemp(prefix=f"scale{size}_"))
+        try:
             ids = build_fake_cache(real_ids, size, folder)
             fake_accounting = pd.DataFrame({
                 "input_row": range(2, size + 2), "tmdb_id": pd.array(ids, dtype="Int64"),
                 "outcome": "kept: details and credits fetched"})
-            config.RAW_DIR = folder
             seconds, stages = [], []
             for _ in range(RUNS):
                 t = time.perf_counter()
-                _, timings = analysis.run_timed(ids, fake_accounting)
+                # passing the folder in, so no shared setting is changed during the test
+                _, timings = analysis.run_timed(ids, fake_accounting, raw_dir=folder)
                 seconds.append(time.perf_counter() - t)
                 stages.append(timings)
-            config.RAW_DIR = real_raw
+        finally:
             shutil.rmtree(folder, ignore_errors=True)
-            # keeping the median time of each stage, to see which one grows fastest
-            per_stage = pd.DataFrame(stages).median().to_dict()
-            rows.append({"titles": size, "first_run_s": seconds[0],
-                         "median_of_5_s": statistics.median(seconds), "slowest_s": max(seconds),
-                         **{f"stage {k.split()[0]} s": v for k, v in per_stage.items()}})
-            print(f"{size:>6} titles: median {statistics.median(seconds):.3f}s "
-                  f"(first {seconds[0]:.3f}s, slowest {max(seconds):.3f}s)")
-    finally:
-        config.RAW_DIR = real_raw
+        # keeping the median time of each stage, to see which one grows fastest
+        per_stage = pd.DataFrame(stages).median().to_dict()
+        rows.append({"titles": size, "first_run_s": seconds[0],
+                     "median_of_5_s": statistics.median(seconds), "slowest_s": max(seconds),
+                     **{f"stage {k.split()[0]} s": v for k, v in per_stage.items()}})
+        print(f"{size:>6} titles: median {statistics.median(seconds):.3f}s "
+              f"(first {seconds[0]:.3f}s, slowest {max(seconds):.3f}s)")
 
     table = pd.DataFrame(rows)
     table["per_title_ms"] = table["median_of_5_s"] / table["titles"] * 1000

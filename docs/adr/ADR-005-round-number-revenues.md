@@ -3,16 +3,16 @@
 **Status:** accepted · **Findings:** F09
 
 ## Context
-4 films report revenue as an exact round figure:
-- *Monsters, Inc.*: $650,000,000
-- *Star Wars: Episode III – Revenge of the Sith*: $850,000,000
-- *Terminator 3*: $435,000,000
-- *Alien Resurrection*: $162,000,000
+Some films report revenue as an exact whole number of millions (six trailing zeros). A counted box office total almost never ends that way, so these are probably estimates.
 
-A counted box office total almost never ends in six zeros, so these are probably estimates.
+The rule is `flag_round_revenue` in `pipeline/checks.py`, and it is tested on its own (`test_round_revenue_rule_is_six_trailing_zeros`). Every run recounts it, so this note doesn't go stale when the data changes:
+- **How many films:** `profiling/flags.csv`, row `flag_round_revenue`.
+- **Which films:** `profiling/flagged_films.csv`, where `flag_round_revenue` is True.
+
+On the 20 Nov 2026 snapshot it flags 4 films, all from franchises (for example *Monsters, Inc.* at $650,000,000).
 
 ## Decision
-Keep them, and flag them (`flag_round_revenue`). An estimate of a big number is still close, and every one of these films is a known commercial release.
+Keep them, and flag them (`flag_round_revenue`). An estimate of a big number is still close, and every film it flags on this list is a known commercial release.
 
 ## Alternative rejected
 Leaving them out of returns.

@@ -4,19 +4,18 @@ version the pipeline uses, at 127, 500 and 5,000 titles.
 the row-by-row version is here only as the "before" in the measurement report.
 the pipeline never uses it.
 
-    python scripts/benchmark_apply.py
+run it from the project folder as a module, so `pipeline` is found:
+
+    python -m scripts.benchmark_apply
 """
 
 import statistics
-import sys
 import time
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from pipeline import config  # noqa: E402
+from pipeline import config
 
 RUNS = 5
 

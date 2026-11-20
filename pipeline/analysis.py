@@ -45,11 +45,11 @@ def analyse(films, cast, directors, accounting):
     return results
 
 
-def run_timed(kept_ids, accounting):
+def run_timed(kept_ids, accounting, raw_dir=None):
     """running stages 2-4 and returning (results, timings in seconds per stage)."""
     timings = {}
     t = time.perf_counter()
-    films, cast, directors, credit_ids, parsing = flatten.run(kept_ids)
+    films, cast, directors, credit_ids, parsing = flatten.run(kept_ids, raw_dir)
     timings["2 flatten (read cache + build tables)"] = time.perf_counter() - t
 
     t = time.perf_counter()

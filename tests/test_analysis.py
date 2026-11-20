@@ -176,3 +176,28 @@ def test_spot_check_sample_comes_from_the_data_not_fixed_ids(data):
     assert {3, 1, 4} <= set(sample["tmdb_id"])    # listed twice, has a co-director, 1999-12-31
     assert sample["tmdb_id"].is_unique
     assert sample["tmdb_id"].isin(df["tmdb_id"]).all()                     # every pick is a real film
+
+
+def test_round_revenue_rule_is_six_trailing_zeros():
+    """checking the rule itself, not just the one film in the fixture."""
+    revenues = [50_000_000, 162_000_000, 50_000_001, 999_999, 1_000_000, 0]
+    details = [film(i + 1, f"r{i}", "2005-01-01", 10, rev) for i, rev in enumerate(revenues)]
+    fetched = pd.DataFrame({"tmdb_id": range(1, 7), "details_fetched_at": "t", "credits_fetched_at": "t"})
+    films, _ = flatten.build_films(details, fetched)
+    flagged = checks.flag_films(films).set_index("revenue")["flag_round_revenue"]
+    # whole millions are flagged; anything else, and a zero (unknown, not round), is not
+    assert flagged.to_dict() == {50_000_000: True, 162_000_000: True, 50_000_001: False,
+                                 999_999: False, 1_000_000: True, 0: False}
+
+
+def test_checked_merge_requires_a_relationship_and_names_its_error():
+    from pipeline import joins
+    films = pd.DataFrame({"tmdb_id": [1, 2]})
+    with pytest.raises(TypeError):                         # validate cannot be left out
+        joins.checked_merge(films, films, "no relationship", on="tmdb_id", how="left")
+    with pytest.raises(ValueError):                        # and must be a real relationship
+        joins.checked_merge(films, films, "typo", on="tmdb_id", how="left", validate="one_one")
+    # an outer join can add rows; with keep_rows on, that is a named error, not an exit
+    other = pd.DataFrame({"tmdb_id": [3]})
+    with pytest.raises(joins.JoinRowCountError):
+        joins.checked_merge(films, other, "grew", on="tmdb_id", how="outer", validate="one_to_one")

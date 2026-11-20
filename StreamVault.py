@@ -11,7 +11,7 @@ import time
 
 import pandas as pd
 
-from pipeline import acquire, analysis, bundles, config, joins, report, spotcheck
+from pipeline import acquire, analysis, bundles, config, joins, manifest, report, spotcheck
 from pipeline.fetch import make_session
 
 
@@ -105,6 +105,16 @@ def main():
 
     # writing the proof that every join kept the rows it should have
     report.write_csv(joins.log_table(), "joins.csv", folder=report.PROFILE_DIR)
+
+    # tying data/raw to one snapshot: listing every saved answer with its checksum
+    saved, drift = manifest.update()
+    if drift is None:
+        print(f"\nsnapshot manifest: created for {len(saved)} saved answers")
+    elif any(drift.values()):
+        print(f"\nsnapshot manifest: {drift['added']} added, {drift['removed']} removed, "
+              f"{drift['changed']} changed since the last run. quote the new snapshot date.")
+    else:
+        print(f"\nsnapshot manifest: all {len(saved)} saved answers unchanged")
 
     # ---- stage 6 (on request): spot-check against tmdb live ----
     if args.spot_check:

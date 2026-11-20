@@ -1,5 +1,7 @@
-"""settings shared by every stage. paths are relative to the project folder, so
-the code is running the same way on any laptop."""
+"""holding the settings every stage is sharing.
+
+paths are being built from the project folder, never typed in full, so the
+code is running the same way on any laptop."""
 
 import os
 from pathlib import Path

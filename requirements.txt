@@ -1,3 +1,6 @@
+# needs python 3.11 or newer.
+# requirements.lock pins every package (including indirect ones) with checksums;
+# install from it for an exact copy: pip install --require-hashes -r requirements.lock
 requests==2.34.2
 urllib3==2.8.0
 pandas==3.1.1

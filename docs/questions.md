@@ -13,4 +13,4 @@ Kwame was not available, so every open question became a stated assumption. If a
 | Q7 | Who is the "lead actor" of a film? | The first-billed cast member. | ADR-006 |
 | Q8 | How fast must Adjoa's rerun be? | Under 10 seconds for about 500 titles, downloads excluded. | ADR-008 |
 | Q9 | Should the data be refreshed before the board, or frozen? | Frozen at 20 Nov 2026 and quoted as such; Adjoa refreshes each quarter. | ADR-007 |
-| Q10 | Which five-film bundle did StreamVault pass on last quarter? | Unknown. The memo answers the general question instead (whole five-film bundles on the list typically returned 3.65×), and the bundle check can test that exact bundle once it is named. | [improvements](improvements.md) |
+| Q10 | Which five-film bundle did StreamVault pass on last quarter? | Unknown. The memo answers the general question instead (whole five-film bundles on the list typically returned 3.65×: the median of `multiple_whole_bundle` for franchises with `films_released` = 5 in [`out/bundle_completeness.csv`](../out/bundle_completeness.csv)), and the bundle check can test that exact bundle once it is named. | [improvements](improvements.md) |

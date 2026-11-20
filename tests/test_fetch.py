@@ -1,6 +1,7 @@
 """checking the fetch rules with a fake tmdb, so no real calls are being made."""
 
 import json
+from typing import NamedTuple
 
 import pytest
 
@@ -16,6 +17,15 @@ class FakeResponse:
         return self._body
 
 
+class Answer(NamedTuple):
+    """one fake tmdb answer: the http status and the json body."""
+    status: int
+    body: dict
+
+
+NOT_FOUND = Answer(404, {"status_code": 34})
+
+
 class FakeSession:
     """pretending to be tmdb: answering from a dict and counting the calls."""
 
@@ -26,7 +36,8 @@ class FakeSession:
     def get(self, url, params=None):
         path = url.replace(config.BASE_URL, "")
         self.calls.append(path)
-        return FakeResponse(*self.answers.get(path, (404, {"status_code": 34})))
+        answer = self.answers.get(path, NOT_FOUND)
+        return FakeResponse(answer.status, answer.body)
 
 
 @pytest.fixture
@@ -41,7 +52,7 @@ def sandbox(tmp_path, monkeypatch):
 
 
 def test_saving_answers_and_reusing_them(sandbox):
-    session = FakeSession({"/movie/1": (200, {"id": 1, "title": "a"})})
+    session = FakeSession({"/movie/1": Answer(200, {"id": 1, "title": "a"})})
     cache = sandbox / "raw" / "1" / "details.json"
 
     first, from_cache_1 = fetch.get_cached(session, "/movie/1", cache)
@@ -64,13 +75,13 @@ def test_not_found_is_saved_so_it_is_not_asked_again(sandbox):
 
 
 def test_bad_key_stops_the_run(sandbox):
-    session = FakeSession({"/movie/1": (401, {"status_code": 7})})
+    session = FakeSession({"/movie/1": Answer(401, {"status_code": 7})})
     with pytest.raises(SystemExit, match="refused the key"):
         fetch.get_cached(session, "/movie/1", sandbox / "x.json")
 
 
 def test_server_errors_are_not_cached(sandbox):
-    session = FakeSession({"/movie/1": (503, {})})
+    session = FakeSession({"/movie/1": Answer(503, {})})
     cache = sandbox / "raw" / "1" / "details.json"
     record, _ = fetch.get_cached(session, "/movie/1", cache)
     assert fetch.status_of(record) == "http_503"
@@ -96,10 +107,10 @@ def test_every_input_row_gets_exactly_one_outcome(sandbox, monkeypatch):
     monkeypatch.setattr(config, "ID_FILE", id_file)
 
     session = FakeSession({
-        "/movie/1": (200, {"id": 1}), "/movie/1/credits": (200, {"id": 1}),
-        "/movie/2": (200, {"id": 2}), "/movie/2/credits": (200, {"id": 2}),
-        "/find/tt001": (200, {"movie_results": [{"id": 2}]}),   # imdb id hiding film 2
-        "/find/tt999": (200, {"movie_results": []}),
+        "/movie/1": Answer(200, {"id": 1}), "/movie/1/credits": Answer(200, {"id": 1}),
+        "/movie/2": Answer(200, {"id": 2}), "/movie/2/credits": Answer(200, {"id": 2}),
+        "/find/tt001": Answer(200, {"movie_results": [{"id": 2}]}),   # imdb id hiding film 2
+        "/find/tt999": Answer(200, {"movie_results": []}),
     })
     accounting, log = acquire.run(session)
 
@@ -115,3 +126,23 @@ def test_every_input_row_gets_exactly_one_outcome(sandbox, monkeypatch):
     assert outcomes["-1"] == "dropped: not a valid id"
     # each distinct film is fetched once: details and credits for 1, 2 and 3
     assert len(log) == 6
+
+
+def test_manifest_spots_added_removed_and_changed_answers(tmp_path):
+    from pipeline import manifest
+    raw = tmp_path / "raw"
+    (raw / "1").mkdir(parents=True)
+    (raw / "2").mkdir()
+    (raw / "1" / "details.json").write_text('{"fetched_at": "t1", "body": {"id": 1}}', encoding="utf-8")
+    (raw / "2" / "details.json").write_text('{"fetched_at": "t1", "body": {"id": 2}}', encoding="utf-8")
+    path = tmp_path / "manifest.csv"
+
+    first, drift = manifest.update(raw, path)
+    assert drift is None and len(first) == 2 and first["fetched_at"].eq("t1").all()
+
+    (raw / "1" / "details.json").write_text('{"fetched_at": "t2", "body": {"id": 1}}', encoding="utf-8")
+    (raw / "2" / "details.json").unlink()
+    (raw / "3").mkdir()
+    (raw / "3" / "details.json").write_text('{"fetched_at": "t2", "body": {"id": 3}}', encoding="utf-8")
+    _, drift = manifest.update(raw, path)
+    assert drift == {"added": 1, "removed": 1, "changed": 1}

@@ -1,0 +1,143 @@
+﻿collection_id,tmdb_id,title,release_date,released,on_list,budget,revenue,fetch_status,has_money
+263,155,The Dark Knight,2008-07-16,True,True,185000000,1008480529,,True
+263,49026,The Dark Knight Rises,2012-07-17,True,True,250000000,1081041287,,True
+263,272,Batman Begins,2005-06-10,True,True,150000000,374218673,,True
+264,105,Back to the Future,1985-07-03,True,True,19000000,391546852,,True
+264,165,Back to the Future Part II,1989-11-22,True,True,40000000,332861197,,True
+264,196,Back to the Future Part III,1990-05-25,True,True,40000000,245077583,,True
+230,238,The Godfather,1972-03-14,True,True,6000000,245066411,,True
+230,240,The Godfather Part II,1974-12-20,True,True,13000000,102600000,,True
+230,242,The Godfather Part III,1990-12-25,True,True,54000000,136766062,,True
+8091,348,Alien,1979-05-25,True,True,11000000,104931801,,True
+8091,679,Aliens,1986-07-18,True,True,18500000,183316455,,True
+8091,8077,Alien³,1992-05-22,True,True,50000000,159773545,,True
+8091,8078,Alien Resurrection,1997-11-12,True,True,70000000,162000000,,True
+328,329,Jurassic Park,1993-06-11,True,True,63000000,1058454230,,True
+328,330,The Lost World: Jurassic Park,1997-05-23,True,True,73000000,618638999,,True
+328,331,Jurassic Park III,2001-07-18,True,True,93000000,368780809,,True
+328,135397,Jurassic World,2015-06-06,True,False,150000000,1671537444,ok,True
+328,351286,Jurassic World: Fallen Kingdom,2018-06-06,True,False,170000000,1310469037,ok,True
+328,507086,Jurassic World Dominion,2022-06-01,True,False,658800000,1004004592,ok,True
+328,1234821,Jurassic World Rebirth,2025-06-23,True,False,180000000,869146189,ok,True
+328,1714034,Untitled Jurassic World Rebirth Sequel,,False,False,,,,
+295,22,Pirates of the Caribbean: The Curse of the Black Pearl,2003-07-09,True,True,140000000,655011224,,True
+295,58,Pirates of the Caribbean: Dead Man's Chest,2006-07-06,True,True,200000000,1066179747,,True
+295,285,Pirates of the Caribbean: At World's End,2007-05-19,True,True,300000000,961691209,,True
+295,1865,Pirates of the Caribbean: On Stranger Tides,2011-05-15,True,True,379000000,1046721266,,True
+295,166426,Pirates of the Caribbean: Dead Men Tell No Tales,2017-05-23,True,True,230000000,795922298,,True
+131292,10138,Iron Man 2,2010-04-28,True,True,200000000,623933331,,True
+131292,68721,Iron Man 3,2013-04-18,True,True,200000000,1215577205,,True
+131292,1726,Iron Man,2008-04-30,True,True,140000000,585174222,,True
+1241,671,Harry Potter and the Philosopher's Stone,2001-11-16,True,True,125000000,1029374615,,True
+1241,672,Harry Potter and the Chamber of Secrets,2002-11-13,True,True,100000000,876688482,,True
+1241,674,Harry Potter and the Goblet of Fire,2005-11-16,True,True,150000000,895921036,,True
+1241,767,Harry Potter and the Half-Blood Prince,2009-07-15,True,True,250000000,933959197,,True
+1241,673,Harry Potter and the Prisoner of Azkaban,2004-05-31,True,True,130000000,789804554,,True
+1241,675,Harry Potter and the Order of the Phoenix,2007-07-08,True,True,150000000,938212738,,True
+1241,12444,Harry Potter and the Deathly Hallows: Part 1,2010-11-17,True,True,250000000,954305868,,True
+1241,12445,Harry Potter and the Deathly Hallows: Part 2,2011-07-12,True,True,125000000,1341511219,,True
+87359,954,Mission: Impossible,1996-05-22,True,True,80000000,457696391,,True
+87359,955,Mission: Impossible II,2000-05-24,True,True,125000000,546388108,,True
+87359,956,Mission: Impossible III,2006-04-25,True,True,150000000,398479497,,True
+87359,56292,Mission: Impossible - Ghost Protocol,2011-12-07,True,True,145000000,694713380,,True
+87359,177677,Mission: Impossible - Rogue Nation,2015-07-28,True,True,150000000,682716636,,True
+87359,353081,Mission: Impossible - Fallout,2018-07-25,True,False,178000000,824171374,ok,True
+87359,575265,Mission: Impossible - The Final Reckoning,2025-05-17,True,False,400000000,598767057,ok,True
+87359,575264,Mission: Impossible - Dead Reckoning Part One,2023-07-08,True,False,220000000,571125435,ok,True
+94032,11430,The Lion King 1½,2004-10-28,True,False,0,1465,ok,False
+94032,9732,The Lion King II: Simba's Pride,1998-10-24,True,False,0,0,ok,False
+94032,8587,The Lion King,1994-06-15,True,True,45000000,763455561,,True
+1570,562,Die Hard,1988-07-15,True,True,28000000,140767956,,True
+1570,1571,Live Free or Die Hard,2007-06-20,True,True,110000000,383531464,,True
+1570,1572,Die Hard: With a Vengeance,1995-05-19,True,True,90000000,366101666,,True
+1570,1573,Die Hard 2,1990-07-03,True,True,70000000,240031094,,True
+1570,47964,A Good Day to Die Hard,2013-02-06,True,False,92000000,304654182,ok,True
+119,120,The Lord of the Rings: The Fellowship of the Ring,2001-12-18,True,True,93000000,871368364,,True
+119,121,The Lord of the Rings: The Two Towers,2002-12-18,True,True,79000000,926287400,,True
+119,122,The Lord of the Rings: The Return of the King,2003-12-17,True,True,94000000,1118888979,,True
+121938,49051,The Hobbit: An Unexpected Journey,2012-12-12,True,True,250000000,1021103568,,True
+121938,57158,The Hobbit: The Desolation of Smaug,2013-12-11,True,True,250000000,958400000,,True
+121938,122917,The Hobbit: The Battle of the Five Armies,2014-12-10,True,True,250000000,956019788,,True
+10,11,Star Wars,1977-05-25,True,True,11000000,775398007,,True
+10,1891,The Empire Strikes Back,1980-05-20,True,True,18000000,538400000,,True
+10,1892,Return of the Jedi,1983-05-25,True,True,32350000,572700000,,True
+10,1893,Star Wars: Episode I - The Phantom Menace,1999-05-19,True,True,115000000,1046515409,,True
+10,1894,Star Wars: Episode II - Attack of the Clones,2002-05-15,True,True,120000000,649398328,,True
+10,1895,Star Wars: Episode III - Revenge of the Sith,2005-05-17,True,True,113000000,850000000,,True
+10,140607,Star Wars: The Force Awakens,2015-12-15,True,False,245000000,2068223624,ok,True
+10,181812,Star Wars: The Rise of Skywalker,2019-12-18,True,False,489900000,1074144248,ok,True
+10,181808,Star Wars: The Last Jedi,2017-12-13,True,False,300000000,1334407706,ok,True
+2883,24,Kill Bill: Vol. 1,2003-10-10,True,True,30000000,180906076,,True
+2883,393,Kill Bill: Vol. 2,2004-04-16,True,True,30000000,152159461,,True
+10194,862,Toy Story,1995-11-22,True,True,30000000,401157969,,True
+10194,863,Toy Story 2,1999-10-30,True,True,90000000,497375404,,True
+10194,10193,Toy Story 3,2010-06-16,True,True,200000000,1067316101,,True
+10194,301528,Toy Story 4,2019-06-19,True,True,175000000,1073841394,,True
+10194,1084244,Toy Story 5,2026-06-17,True,False,250000000,1148032461,ok,True
+86311,24428,The Avengers,2012-04-25,True,True,220000000,1518815515,,True
+86311,99861,Avengers: Age of Ultron,2015-04-22,True,True,235000000,1405403694,,True
+86311,299536,Avengers: Infinity War,2018-04-25,True,True,300000000,2052415039,,True
+86311,299534,Avengers: Endgame,2019-04-24,True,True,356000000,2942649778,,True
+86311,1003596,Avengers: Doomsday,2026-12-16,False,False,,,,
+86311,1003598,Avengers: Secret Wars,2027-12-15,False,False,,,,
+2150,808,Shrek,2001-05-18,True,True,60000000,489676241,,True
+2150,809,Shrek 2,2004-05-19,True,True,150000000,932542741,,True
+2150,810,Shrek the Third,2007-05-17,True,True,160000000,808310187,,True
+2150,10192,Shrek Forever After,2010-05-16,True,True,165000000,752600867,,True
+2150,421892,Shrek 5,2027-06-30,False,False,,,,
+2344,603,The Matrix,1999-03-31,True,True,63000000,463517383,,True
+2344,604,The Matrix Reloaded,2003-05-15,True,True,150000000,738599701,,True
+2344,605,The Matrix Revolutions,2003-11-05,True,True,150000000,424988211,,True
+2344,624860,The Matrix Resurrections,2021-12-16,True,False,190000000,156497322,ok,True
+468222,9806,The Incredibles,2004-10-27,True,True,92000000,631442092,,True
+468222,260513,Incredibles 2,2018-06-14,True,False,200000000,1243225667,ok,True
+468222,1327821,Incredibles 3,2028-06-14,False,False,,,,
+304,161,Ocean's Eleven,2001-12-07,True,True,85000000,450717150,,True
+304,163,Ocean's Twelve,2004-12-09,True,True,110000000,362744280,,True
+304,298,Ocean's Thirteen,2007-06-05,True,True,85000000,311312624,,True
+9743,274,The Silence of the Lambs,1991-02-14,True,True,19000000,272742922,,True
+9743,9533,Red Dragon,2002-10-02,True,False,78000000,209196298,ok,True
+9743,9740,Hannibal,2001-02-08,True,False,87000000,351692268,ok,True
+84,85,Raiders of the Lost Ark,1981-06-12,True,True,18000000,389925971,,True
+84,87,Indiana Jones and the Temple of Doom,1984-05-23,True,True,28000000,333107271,,True
+84,89,Indiana Jones and the Last Crusade,1989-05-24,True,True,48000000,474171806,,True
+84,217,Indiana Jones and the Kingdom of the Crystal Skull,2008-05-21,True,True,185000000,786636033,,True
+84,335977,Indiana Jones and the Dial of Destiny,2023-06-25,True,False,294700000,383963057,ok,True
+8354,57800,Ice Age: Continental Drift,2012-06-27,True,False,95000000,877244782,ok,True
+8354,425,Ice Age,2002-03-14,True,True,59000000,383257136,,True
+8354,8355,Ice Age: Dawn of the Dinosaurs,2009-06-26,True,True,90000000,886686817,,True
+8354,950,Ice Age: The Meltdown,2006-03-29,True,True,80000000,660998756,,True
+8354,278154,Ice Age: Collision Course,2016-06-23,True,False,105000000,408579038,ok,True
+8354,774825,The Ice Age Adventures of Buck Wild,2022-01-28,True,False,0,0,ok,False
+8354,1384758,Ice Age: Boiling Point,2027-01-28,False,False,,,,
+31562,2501,The Bourne Identity,2002-06-14,True,True,60000000,214034224,,True
+31562,2502,The Bourne Supremacy,2004-07-23,True,True,75000000,288500217,,True
+31562,2503,The Bourne Ultimatum,2007-08-03,True,True,70000000,442824138,,True
+31562,49040,The Bourne Legacy,2012-08-08,True,False,130000000,276600000,ok,True
+31562,324668,Jason Bourne,2016-07-27,True,False,120000000,415484914,ok,True
+134897,77931,The Smurfs 2,2013-07-30,True,False,105000000,347434178,ok,True
+134897,41513,The Smurfs,2011-07-29,True,True,110000000,563749323,,True
+422837,78,Blade Runner,1982-06-25,True,True,28000000,41722424,,True
+422837,335984,Blade Runner 2049,2017-10-04,True,False,150000000,259239658,ok,True
+2366,578,Jaws,1975-06-20,True,True,7000000,470653000,,True
+2366,579,Jaws 2,1978-06-16,True,False,20000000,187884000,ok,True
+2366,580,Jaws: The Revenge,1987-07-17,True,False,23000000,51881012,ok,True
+2366,17692,Jaws 3-D,1983-07-22,True,False,20500000,87987056,ok,True
+137696,585,"Monsters, Inc.",2001-11-01,True,True,130000000,650000000,,True
+137696,62211,Monsters University,2013-06-19,True,False,200000000,743559465,ok,True
+528,218,The Terminator,1984-10-26,True,True,6400000,78371200,,True
+528,280,Terminator 2: Judgment Day,1991-07-03,True,True,102000000,517814175,,True
+528,296,Terminator 3: Rise of the Machines,2003-07-02,True,True,200000000,435000000,,True
+528,534,Terminator Salvation,2009-05-20,True,True,200000000,371353001,,True
+528,87101,Terminator Genisys,2015-06-23,True,False,155000000,440603537,ok,True
+528,290859,Terminator: Dark Fate,2019-10-23,True,False,185000000,261119292,ok,True
+8945,8810,Mad Max 2,1981-12-24,True,False,2000000,24600832,ok,True
+8945,9355,Mad Max Beyond Thunderdome,1985-06-29,True,False,10000000,36230219,ok,True
+8945,9659,Mad Max,1979-04-12,True,False,350000,100000000,ok,True
+8945,76341,Mad Max: Fury Road,2015-05-13,True,True,150000000,378858340,,True
+8945,340023,Mad Max: The Wasteland,,False,False,,,,
+8945,786892,Furiosa: A Mad Max Saga,2024-05-22,True,False,168000000,174287546,ok,True
+2980,620,Ghostbusters,1984-06-08,True,True,30000000,296640120,,True
+2980,2978,Ghostbusters II,1989-06-16,True,False,37000000,215394738,ok,True
+2980,425909,Ghostbusters: Afterlife,2021-11-18,True,False,75000000,204445747,ok,True
+2980,967847,Ghostbusters: Frozen Empire,2024-03-20,True,False,100000000,201967521,ok,True

@@ -1,0 +1,88 @@
+﻿person_id,name,films,median_multiple,worst_multiple,median_rating,titles,vs_typical_film,role,window
+488,Steven Spielberg,8,13.252,4.252,7.773,Indiana Jones and the Kingdom of the Crystal Skull | Indiana Jones and the Temple of Doom | Jurassic Park | Raiders of the Lost Ark | Jaws | Indiana Jones and the Last Crusade | Schindler's List | The Lost World: Jurassic Park,2.466,director,all years
+24,Robert Zemeckis,4,10.319,6.127,8.058,Back to the Future Part II | Back to the Future | Forrest Gump | Back to the Future Part III,1.92,director,all years
+2710,James Cameron,3,9.909,5.077,7.97,Aliens | Terminator 2: Judgment Day | The Terminator,1.844,director,all years
+7879,John Lasseter,2,9.449,5.526,7.806,Toy Story 2 | Toy Story,1.758,director,all years
+5714,Carlos Saldanha,2,9.057,8.262,6.758,Ice Age: Dawn of the Dinosaurs | Ice Age: The Meltdown,1.685,director,all years
+10965,Chris Columbus,2,8.501,8.235,7.807,Harry Potter and the Chamber of Secrets | Harry Potter and the Philosopher's Stone,1.582,director,all years
+1,George Lucas,4,8.311,5.412,7.038,Star Wars | Star Wars: Episode I - The Phantom Menace | Star Wars: Episode II - Attack of the Clones | Star Wars: Episode III - Revenge of the Sith,1.547,director,all years
+1776,Francis Ford Coppola,3,7.892,2.533,8.573,The Godfather Part III | The Godfather | The Godfather Part II,1.469,director,all years
+19271,Anthony Russo,2,7.554,6.841,8.247,Avengers: Endgame | Avengers: Infinity War,1.406,director,all years
+19272,Joe Russo,2,7.554,6.841,8.247,Avengers: Endgame | Avengers: Infinity War,1.406,director,all years
+5524,Andrew Adamson,2,7.189,6.217,7.557,Shrek | Shrek 2,1.338,director,all years
+108,Peter Jackson,6,6.727,3.824,8.007,The Lord of the Rings: The Two Towers | The Hobbit: The Battle of the Five Armies | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Hobbit: The Desolation of Smaug | The Hobbit: An Unexpected Journey,1.252,director,all years
+12891,Joss Whedon,2,6.442,5.98,7.682,The Avengers | Avengers: Age of Ultron,1.199,director,all years
+138,Quentin Tarantino,3,6.03,5.072,7.969,Pulp Fiction | Kill Bill: Vol. 1 | Kill Bill: Vol. 2,1.122,director,all years
+7087,Brad Bird,2,5.827,4.791,7.426,Mission: Impossible - Ghost Protocol | The Incredibles,1.084,director,all years
+578,Ridley Scott,2,5.515,1.49,8.056,Blade Runner | Alien,1.026,director,all years
+25598,Paul Greengrass,2,5.086,3.847,7.395,The Bourne Supremacy | The Bourne Ultimatum,0.946,director,all years
+11343,David Yates,4,5.036,3.736,7.706,Harry Potter and the Deathly Hallows: Part 2 | Harry Potter and the Deathly Hallows: Part 1 | Harry Potter and the Order of the Phoenix | Harry Potter and the Half-Blood Prince,0.937,director,all years
+9339,Lilly Wachowski,3,4.924,2.833,7.087,The Matrix | The Matrix Revolutions | The Matrix Reloaded,0.916,director,all years
+9340,Lana Wachowski,3,4.924,2.833,7.087,The Matrix | The Matrix Revolutions | The Matrix Reloaded,0.916,director,all years
+1704,Gore Verbinski,3,4.679,3.206,7.393,Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: The Curse of the Black Pearl | Pirates of the Caribbean: At World's End,0.871,director,all years
+1090,John McTiernan,2,4.548,4.068,7.554,Die Hard: With a Vengeance | Die Hard,0.846,director,all years
+525,Christopher Nolan,7,4.451,2.495,8.2,The Dark Knight | The Dark Knight Rises | Inception | The Prestige | Memento | Batman Begins | Interstellar,0.828,director,all years
+1150,Brian De Palma,2,4.181,2.641,7.595,Scarface | Mission: Impossible,0.778,director,all years
+1884,Steven Soderbergh,3,3.663,3.298,6.738,Ocean's Eleven | Ocean's Twelve | Ocean's Thirteen,0.682,director,all years
+15277,Jon Favreau,2,3.65,3.12,7.262,Iron Man 2 | Iron Man,0.679,director,all years
+1032,Martin Scorsese,2,2.561,1.883,8.306,GoodFellas | The Departed,0.476,director,all years
+7467,David Fincher,2,2.398,1.601,7.414,Alien³ | Fight Club,0.446,director,all years
+2,Mark Hamill,3,29.911,17.703,8.207,Return of the Jedi | Star Wars | The Empire Strikes Back,5.566,lead actor,all years
+3896,Liam Neeson,2,11.854,9.1,7.591,Star Wars: Episode I - The Phantom Menace | Schindler's List,2.206,lead actor,all years
+109,Elijah Wood,3,11.725,9.37,8.452,The Lord of the Rings: The Two Towers | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King,2.182,lead actor,all years
+4783,Sam Neill,2,10.383,3.965,7.078,Jurassic Park III | Jurassic Park,1.932,lead actor,all years
+3,Harrison Ford,5,9.879,1.49,7.859,Indiana Jones and the Kingdom of the Crystal Skull | Indiana Jones and the Temple of Doom | Blade Runner | Raiders of the Lost Ark | Indiana Jones and the Last Crusade,1.838,lead actor,all years
+521,Michael J. Fox,3,8.322,6.127,7.784,Back to the Future Part II | Back to the Future | Back to the Future Part III,1.548,lead actor,all years
+15757,Ray Romano,3,8.262,6.496,6.784,Ice Age: Dawn of the Dinosaurs | Ice Age | Ice Age: The Meltdown,1.537,lead actor,all years
+17244,Hayden Christensen,2,6.467,5.412,7.038,Star Wars: Episode II - Attack of the Clones | Star Wars: Episode III - Revenge of the Sith,1.203,lead actor,all years
+10980,Daniel Radcliffe,8,6.165,3.736,7.768,Harry Potter and the Prisoner of Azkaban | Harry Potter and the Goblet of Fire | Harry Potter and the Deathly Hallows: Part 2 | Harry Potter and the Deathly Hallows: Part 1 | Harry Potter and the Chamber of Secrets | Harry Potter and the Philosopher's Stone | Harry Potter and the Order of the Phoenix | Harry Potter and the Half-Blood Prince,1.147,lead actor,all years
+31,Tom Hanks,5,6.136,5.337,7.818,Toy Story 2 | Toy Story | Toy Story 4 | Forrest Gump | Toy Story 3,1.142,lead actor,all years
+3223,Robert Downey Jr.,7,6.078,3.12,7.668,Iron Man 2 | Iron Man | Avengers: Endgame | The Avengers | Iron Man 3 | Avengers: Infinity War | Avengers: Age of Ultron,1.131,lead actor,all years
+12073,Mike Myers,4,5.634,4.561,6.874,Shrek the Third | Shrek | Shrek 2 | Shrek Forever After,1.048,lead actor,all years
+139,Uma Thurman,2,5.551,5.072,7.921,Kill Bill: Vol. 1 | Kill Bill: Vol. 2,1.033,lead actor,all years
+1100,Arnold Schwarzenegger,3,5.077,2.175,7.7,Terminator 2: Judgment Day | The Terminator | Terminator 3: Rise of the Machines,0.945,lead actor,all years
+6384,Keanu Reeves,3,4.924,2.833,7.087,The Matrix | The Matrix Revolutions | The Matrix Reloaded,0.916,lead actor,all years
+500,Tom Cruise,5,4.551,2.657,7.036,Mission: Impossible II | Mission: Impossible - Ghost Protocol | Mission: Impossible III | Mission: Impossible | Mission: Impossible - Rogue Nation,0.847,lead actor,all years
+6193,Leonardo DiCaprio,2,4.241,3.238,8.266,The Departed | Inception,0.789,lead actor,all years
+1892,Matt Damon,3,3.847,3.567,7.45,The Bourne Supremacy | The Bourne Ultimatum | The Bourne Identity,0.716,lead actor,all years
+1327,Ian McKellen,2,3.829,3.824,7.461,The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug,0.712,lead actor,all years
+62,Bruce Willis,4,3.777,3.429,7.13,Die Hard 2 | Die Hard: With a Vengeance | Die Hard | Live Free or Die Hard,0.703,lead actor,all years
+1461,George Clooney,3,3.663,3.298,6.738,Ocean's Eleven | Ocean's Twelve | Ocean's Thirteen,0.682,lead actor,all years
+85,Johnny Depp,5,3.461,2.762,7.28,Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: The Curse of the Black Pearl | Pirates of the Caribbean: On Stranger Tides | Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Men Tell No Tales,0.644,lead actor,all years
+3894,Christian Bale,4,3.409,1.857,7.767,The Dark Knight | The Dark Knight Rises | Terminator Salvation | Batman Begins,0.634,lead actor,all years
+10205,Sigourney Weaver,3,3.195,2.314,6.391,Alien³ | Aliens | Alien Resurrection,0.595,lead actor,all years
+1158,Al Pacino,3,2.641,2.533,8.155,The Godfather Part III | Scarface | The Godfather Part II,0.491,lead actor,all years
+5714,Carlos Saldanha,2,9.057,8.262,6.758,Ice Age: Dawn of the Dinosaurs | Ice Age: The Meltdown,1.839,director,2000 onward
+10965,Chris Columbus,2,8.501,8.235,7.807,Harry Potter and the Chamber of Secrets | Harry Potter and the Philosopher's Stone,1.726,director,2000 onward
+19271,Anthony Russo,2,7.554,6.841,8.247,Avengers: Endgame | Avengers: Infinity War,1.534,director,2000 onward
+19272,Joe Russo,2,7.554,6.841,8.247,Avengers: Endgame | Avengers: Infinity War,1.534,director,2000 onward
+5524,Andrew Adamson,2,7.189,6.217,7.557,Shrek | Shrek 2,1.46,director,2000 onward
+108,Peter Jackson,6,6.727,3.824,8.007,The Lord of the Rings: The Two Towers | The Hobbit: The Battle of the Five Armies | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Hobbit: The Desolation of Smaug | The Hobbit: An Unexpected Journey,1.366,director,2000 onward
+1,George Lucas,2,6.467,5.412,7.038,Star Wars: Episode II - Attack of the Clones | Star Wars: Episode III - Revenge of the Sith,1.313,director,2000 onward
+12891,Joss Whedon,2,6.442,5.98,7.682,The Avengers | Avengers: Age of Ultron,1.308,director,2000 onward
+7087,Brad Bird,2,5.827,4.791,7.426,Mission: Impossible - Ghost Protocol | The Incredibles,1.183,director,2000 onward
+138,Quentin Tarantino,2,5.551,5.072,7.921,Kill Bill: Vol. 1 | Kill Bill: Vol. 2,1.127,director,2000 onward
+25598,Paul Greengrass,2,5.086,3.847,7.395,The Bourne Supremacy | The Bourne Ultimatum,1.033,director,2000 onward
+11343,David Yates,4,5.036,3.736,7.706,Harry Potter and the Deathly Hallows: Part 2 | Harry Potter and the Deathly Hallows: Part 1 | Harry Potter and the Order of the Phoenix | Harry Potter and the Half-Blood Prince,1.023,director,2000 onward
+1704,Gore Verbinski,3,4.679,3.206,7.393,Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: The Curse of the Black Pearl | Pirates of the Caribbean: At World's End,0.95,director,2000 onward
+525,Christopher Nolan,7,4.451,2.495,8.2,The Dark Knight | The Dark Knight Rises | Inception | The Prestige | Memento | Batman Begins | Interstellar,0.904,director,2000 onward
+9339,Lilly Wachowski,2,3.879,2.833,6.925,The Matrix Revolutions | The Matrix Reloaded,0.788,director,2000 onward
+9340,Lana Wachowski,2,3.879,2.833,6.925,The Matrix Revolutions | The Matrix Reloaded,0.788,director,2000 onward
+1884,Steven Soderbergh,3,3.663,3.298,6.738,Ocean's Eleven | Ocean's Twelve | Ocean's Thirteen,0.744,director,2000 onward
+15277,Jon Favreau,2,3.65,3.12,7.262,Iron Man 2 | Iron Man,0.741,director,2000 onward
+109,Elijah Wood,3,11.725,9.37,8.452,The Lord of the Rings: The Two Towers | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King,2.381,lead actor,2000 onward
+15757,Ray Romano,3,8.262,6.496,6.784,Ice Age: Dawn of the Dinosaurs | Ice Age | Ice Age: The Meltdown,1.678,lead actor,2000 onward
+17244,Hayden Christensen,2,6.467,5.412,7.038,Star Wars: Episode II - Attack of the Clones | Star Wars: Episode III - Revenge of the Sith,1.313,lead actor,2000 onward
+10980,Daniel Radcliffe,8,6.165,3.736,7.768,Harry Potter and the Prisoner of Azkaban | Harry Potter and the Goblet of Fire | Harry Potter and the Deathly Hallows: Part 2 | Harry Potter and the Deathly Hallows: Part 1 | Harry Potter and the Chamber of Secrets | Harry Potter and the Philosopher's Stone | Harry Potter and the Order of the Phoenix | Harry Potter and the Half-Blood Prince,1.252,lead actor,2000 onward
+3223,Robert Downey Jr.,7,6.078,3.12,7.668,Iron Man 2 | Iron Man | Avengers: Endgame | The Avengers | Iron Man 3 | Avengers: Infinity War | Avengers: Age of Ultron,1.234,lead actor,2000 onward
+31,Tom Hanks,2,5.736,5.337,7.638,Toy Story 4 | Toy Story 3,1.165,lead actor,2000 onward
+12073,Mike Myers,4,5.634,4.561,6.874,Shrek the Third | Shrek | Shrek 2 | Shrek Forever After,1.144,lead actor,2000 onward
+139,Uma Thurman,2,5.551,5.072,7.921,Kill Bill: Vol. 1 | Kill Bill: Vol. 2,1.127,lead actor,2000 onward
+500,Tom Cruise,4,4.461,2.657,6.946,Mission: Impossible II | Mission: Impossible - Ghost Protocol | Mission: Impossible III | Mission: Impossible - Rogue Nation,0.906,lead actor,2000 onward
+6193,Leonardo DiCaprio,2,4.241,3.238,8.266,The Departed | Inception,0.861,lead actor,2000 onward
+6384,Keanu Reeves,2,3.879,2.833,6.925,The Matrix Revolutions | The Matrix Reloaded,0.788,lead actor,2000 onward
+1892,Matt Damon,3,3.847,3.567,7.45,The Bourne Supremacy | The Bourne Ultimatum | The Bourne Identity,0.781,lead actor,2000 onward
+1327,Ian McKellen,2,3.829,3.824,7.461,The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug,0.778,lead actor,2000 onward
+1461,George Clooney,3,3.663,3.298,6.738,Ocean's Eleven | Ocean's Twelve | Ocean's Thirteen,0.744,lead actor,2000 onward
+85,Johnny Depp,5,3.461,2.762,7.28,Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: The Curse of the Black Pearl | Pirates of the Caribbean: On Stranger Tides | Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Men Tell No Tales,0.703,lead actor,2000 onward
+3894,Christian Bale,4,3.409,1.857,7.767,The Dark Knight | The Dark Knight Rises | Terminator Salvation | Batman Begins,0.692,lead actor,2000 onward

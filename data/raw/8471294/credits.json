@@ -1,0 +1,10 @@
+{
+  "path": "/movie/8471294/credits",
+  "http_status": 404,
+  "fetched_at": "2026-11-20T07:55:29+00:00",
+  "body": {
+    "success": false,
+    "status_code": 34,
+    "status_message": "The resource you requested could not be found."
+  }
+}

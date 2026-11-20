@@ -1,0 +1,10 @@
+﻿join,relationship,how,rows_before,rows_after,matched,left_only,right_only
+input rows <- fetch results,many_to_one,left,127,127,124,3,0
+films <- genres,one_to_one,left,112,112,112,0,0
+films <- fetch times,one_to_one,left,112,112,112,0,0
+director credits <- films (all years),many_to_one,inner,122,122,122,0,0
+lead actor credits <- films (all years),many_to_one,inner,112,112,112,0,0
+director credits <- films (2000 onward),many_to_one,inner,122,79,79,0,0
+lead actor credits <- films (2000 onward),many_to_one,inner,112,71,71,0,0
+bundle films <- money figures,many_to_one,left,142,142,135,7,0
+franchises <- names,one_to_one,left,32,32,32,0,0

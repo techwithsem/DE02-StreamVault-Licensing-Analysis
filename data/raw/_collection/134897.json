@@ -1,0 +1,63 @@
+{
+  "path": "/collection/134897",
+  "http_status": 200,
+  "fetched_at": "2026-11-20T08:07:27+00:00",
+  "body": {
+    "id": 134897,
+    "name": "The Smurfs (Theatrical) Collection",
+    "original_language": "en",
+    "original_name": "The Smurfs (Theatrical) Collection",
+    "overview": "An American CGI/live-action film series based on The Smurfs comic book series created by the Belgian comics artist Peyo and the 1980s animated TV series.",
+    "poster_path": "/eNAmAgC3fbrOLv0YkW5y4nl7DCN.jpg",
+    "backdrop_path": "/mUN96AWlMupDR7NXaPhFmMEYIBM.jpg",
+    "parts": [
+      {
+        "adult": false,
+        "backdrop_path": "/aIyvMthA7UGV6ix6AUUM88ZXfeU.jpg",
+        "genre_ids": [
+          14,
+          10751,
+          35,
+          16
+        ],
+        "id": 77931,
+        "title": "The Smurfs 2",
+        "original_language": "en",
+        "original_title": "The Smurfs 2",
+        "overview": "The evil wizard Gargamel creates a couple of mischievous Smurf-like creatures called the Naughties that he hopes will let him harness the all-powerful, magical Smurf-essence. But when he discovers that only a real Smurf can give him what he wants, and only a secret spell that Smurfette knows can turn the Naughties into real Smurfs, Gargamel kidnaps Smurfette and brings her to Paris, where he has been winning the adoration of millions as the world¹s greatest sorcerer. It's up to Papa, Clumsy, Grouchy, and Vanity to return to our world, reunite with their human friends Patrick and Grace Winslow, and rescue her! Will Smurfette, who has always felt different from the other Smurfs, find a new connection with the Naughties Vexy and Hackus or will the Smurfs convince her that their love for her is True Blue?",
+        "popularity": 6.1979,
+        "poster_path": "/tmjvgbEH4BKYFfHmWXjXrHgi8wT.jpg",
+        "release_date": "2013-07-30",
+        "softcore": false,
+        "video": false,
+        "vote_average": 5.75,
+        "vote_count": 2442,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/iYLimHUF0C0R61v1ofg79SUIja9.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          12,
+          35,
+          14
+        ],
+        "id": 41513,
+        "title": "The Smurfs",
+        "original_language": "en",
+        "original_title": "The Smurfs",
+        "overview": "When the evil wizard Gargamel chases the tiny blue Smurfs out of their village, they tumble from their magical world and into ours -- in fact, smack dab in the middle of Central Park. Just three apples high and stuck in the Big Apple, the Smurfs must find a way to get back to their village before Gargamel tracks them down.",
+        "popularity": 5.6126,
+        "poster_path": "/vRhnslP2gW0QDym7BsMeSuioUfK.jpg",
+        "release_date": "2011-07-29",
+        "softcore": false,
+        "video": false,
+        "vote_average": 5.753,
+        "vote_count": 4138,
+        "media_type": "movie"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+﻿column,dtype,missing,distinct,most_common,times,zeros,min,max,note
+tmdb_id,Int64,0,112,,,0,11,301528,every film has a different value
+imdb_id,string,0,112,,,,,,every film has a different value
+title,string,0,112,,,,,,every film has a different value
+release_date,datetime64[us],0,112,,,,1966-12-23,2019-06-19,every film has a different value
+budget,Int64,0,60,150000000,9,0,1200000,379000000,"no zeros, so no hidden 'unknown' values this year"
+revenue,Int64,0,112,,,0,7390108,2942649778,"no zeros, so no hidden 'unknown' values this year"
+runtime,int64,0,64,92,4,0,81,202,
+vote_average,float64,0,109,8.452,2,0,5.753,8.735,
+vote_count,Int64,0,112,,,0,4138,41967,every film has a different value
+status,string,0,1,Released,112,,,,only one value in the whole table
+original_language,string,0,3,en,110,,,,
+collection_id,Int64,16,32,1241,8,0,10,468222,"missing means the film is standalone (no franchise), which is expected"
+collection_name,string,16,32,Harry Potter Collection,8,,,,"missing means the film is standalone (no franchise), which is expected"
+release_year,Int64,0,43,2001,7,0,1966,2019,
+genres,str,0,66,"Adventure, Action, Science Fiction",9,,,,
+details_fetched_at,str,0,112,,,,,,every film has a different value
+credits_fetched_at,str,0,112,,,,,,every film has a different value

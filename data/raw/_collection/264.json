@@ -1,0 +1,82 @@
+{
+  "path": "/collection/264",
+  "http_status": 200,
+  "fetched_at": "2026-11-20T08:07:15+00:00",
+  "body": {
+    "id": 264,
+    "name": "Back to the Future Collection",
+    "original_language": "en",
+    "original_name": "Back to the Future Collection",
+    "overview": "An American science fiction–comedy film series that follows the adventures of a high school student, Marty McFly and an eccentric scientist, Dr Emmett L. Brown as they use a DeLorean time machine to time travel to different periods in the history of Hill Valley, California.",
+    "poster_path": "/5Xsu2o5IsZRuuxCEVZ9nVve21FP.jpg",
+    "backdrop_path": "/c9C9Pg2QctyjZHRmS0P8rZg1OTA.jpg",
+    "parts": [
+      {
+        "adult": false,
+        "backdrop_path": "/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
+        "genre_ids": [
+          12,
+          35,
+          878
+        ],
+        "id": 105,
+        "title": "Back to the Future",
+        "original_language": "en",
+        "original_title": "Back to the Future",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "popularity": 25.0107,
+        "poster_path": "/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+        "release_date": "1985-07-03",
+        "softcore": false,
+        "video": false,
+        "vote_average": 8.332,
+        "vote_count": 22798,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/w6tPctxWAsHoQXeKxxNOT6lYKpx.jpg",
+        "genre_ids": [
+          12,
+          35,
+          878
+        ],
+        "id": 165,
+        "title": "Back to the Future Part II",
+        "original_language": "en",
+        "original_title": "Back to the Future Part II",
+        "overview": "Marty and Doc are at it again as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again.",
+        "popularity": 9.489,
+        "poster_path": "/hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+        "release_date": "1989-11-22",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.784,
+        "vote_count": 14541,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/AtF7TESJEMmImBRUj9Z7HmW2ZH0.jpg",
+        "genre_ids": [
+          12,
+          35,
+          878
+        ],
+        "id": 196,
+        "title": "Back to the Future Part III",
+        "original_language": "en",
+        "original_title": "Back to the Future Part III",
+        "overview": "The final installment finds Marty digging the trusty DeLorean out of a mineshaft and looking for Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+        "popularity": 7.8173,
+        "poster_path": "/crzoVQnMzIrRfHtQw0tLBirNfVg.jpg",
+        "release_date": "1990-05-25",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.494,
+        "vote_count": 12027,
+        "media_type": "movie"
+      }
+    ]
+  }
+}

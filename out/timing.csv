@@ -1,0 +1,6 @@
+﻿stage,seconds
+2 flatten (read cache + build tables),0.6836
+3 checks and profile,0.0319
+"4 kpis, both windows, all scenarios",0.3755
+5 write outputs,0.0669
+total (stages 2-5),1.1579

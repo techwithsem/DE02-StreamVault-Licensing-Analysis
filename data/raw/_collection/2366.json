@@ -1,0 +1,102 @@
+{
+  "path": "/collection/2366",
+  "http_status": 200,
+  "fetched_at": "2026-11-20T08:07:29+00:00",
+  "body": {
+    "id": 2366,
+    "name": "Jaws Collection",
+    "original_language": "en",
+    "original_name": "Jaws Collection",
+    "overview": "The classic horror films about a great white shark that’s been attacking people off the coast of New England and bringing terror to their beach vacations. The first film was a major box-office success bringing in almost 500 million world wide and spawning the blockbuster movie phenomena and three sequels.",
+    "poster_path": "/ckwrReFkBTHQ2con1Ewm3QSmfsQ.jpg",
+    "backdrop_path": "/us13Po7SYoHl9wBNVcz04t0oh7F.jpg",
+    "parts": [
+      {
+        "adult": false,
+        "backdrop_path": "/i81949wTuXe4fsUSV9Yu0D9ezJ8.jpg",
+        "genre_ids": [
+          27,
+          53,
+          12
+        ],
+        "id": 578,
+        "title": "Jaws",
+        "original_language": "en",
+        "original_title": "Jaws",
+        "overview": "When the seaside community of Amity finds itself under attack by a dangerous great white shark, the town's chief of police, a young marine biologist, and a grizzled shark hunter embark on a desperate quest to kill the beast before it strikes again.",
+        "popularity": 13.0921,
+        "poster_path": "/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+        "release_date": "1975-06-20",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.687,
+        "vote_count": 12047,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/gtgsAvkbxLNVf1jAML5GIC9gTwt.jpg",
+        "genre_ids": [
+          27,
+          53
+        ],
+        "id": 579,
+        "title": "Jaws 2",
+        "original_language": "en",
+        "original_title": "Jaws 2",
+        "overview": "Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.",
+        "popularity": 3.9398,
+        "poster_path": "/cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg",
+        "release_date": "1978-06-16",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 2224,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/AhO8oeEkfwhWi6o9P29pJcVK31V.jpg",
+        "genre_ids": [
+          12,
+          53,
+          27
+        ],
+        "id": 580,
+        "title": "Jaws: The Revenge",
+        "original_language": "en",
+        "original_title": "Jaws: The Revenge",
+        "overview": "After another deadly shark attack, Ellen Brody decides she has had enough of New England's Amity Island and moves to the Caribbean to join her son, Michael, and his family. But a great white shark has followed her there, hungry for more lives.",
+        "popularity": 2.8101,
+        "poster_path": "/itPhb07AFsGFECYXjjKcc66dKlJ.jpg",
+        "release_date": "1987-07-17",
+        "softcore": false,
+        "video": false,
+        "vote_average": 4.092,
+        "vote_count": 1233,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/aJC36J0hKjKJwNjVhdDahhl8j7S.jpg",
+        "genre_ids": [
+          53,
+          27
+        ],
+        "id": 17692,
+        "title": "Jaws 3-D",
+        "original_language": "en",
+        "original_title": "Jaws 3-D",
+        "overview": "A giant thirty-five-foot shark becomes trapped in a SeaWorld theme park and it's up to the sons of police chief Brody to rescue everyone.",
+        "popularity": 3.5348,
+        "poster_path": "/kqDXj53F9paqVGJLGfHtz7giJ3s.jpg",
+        "release_date": "1983-07-22",
+        "softcore": false,
+        "video": false,
+        "vote_average": 4.5,
+        "vote_count": 1478,
+        "media_type": "movie"
+      }
+    ]
+  }
+}

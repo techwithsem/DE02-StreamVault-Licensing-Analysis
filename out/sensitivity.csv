@@ -1,0 +1,9 @@
+﻿scenario,window,franchise_median_multiple,franchise_usable,standalone_median_multiple,standalone_usable,gap,leader
+chosen approach,2000 onward,5.052,63.0,3.845,8.0,1.207,franchise
+chosen approach,all years,5.624,96.0,3.845,16.0,1.779,franchise
+franchise = 2+ films on the list,2000 onward,5.052,59.0,4.488,12.0,0.564,franchise
+franchise = 2+ films on the list,all years,5.526,87.0,5.0,25.0,0.526,franchise
+drop round-number revenues,2000 onward,5.062,60.0,3.845,8.0,1.217,franchise
+drop round-number revenues,all years,5.847,92.0,3.845,16.0,2.002,franchise
+count duplicate rows again,2000 onward,5.072,65.0,3.845,8.0,1.227,franchise
+count duplicate rows again,all years,5.624,100.0,3.238,19.0,2.385,franchise

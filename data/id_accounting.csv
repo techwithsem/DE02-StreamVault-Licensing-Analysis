@@ -1,0 +1,128 @@
+input_row,raw_value,id_kind,imdb_id,tmdb_id,duplicate_of_row,details_status,credits_status,outcome
+2,155,tmdb,,155,,ok,ok,kept: details and credits fetched
+3,165,tmdb,,165,,ok,ok,kept: details and credits fetched
+4,242,tmdb,,242,,ok,ok,kept: details and credits fetched
+5,49026,tmdb,,49026,,ok,ok,kept: details and credits fetched
+6,8077,tmdb,,8077,,ok,ok,kept: details and credits fetched
+7,331,tmdb,,331,,ok,ok,kept: details and credits fetched
+8,680,tmdb,,680,,ok,ok,kept: details and credits fetched
+9,58,tmdb,,58,,ok,ok,kept: details and credits fetched
+10,10138,tmdb,,10138,,ok,ok,kept: details and credits fetched
+11,673,tmdb,,673,,ok,ok,kept: details and credits fetched
+12,955,tmdb,,955,,ok,ok,kept: details and credits fetched
+13,8587,tmdb,,8587,,ok,ok,kept: details and credits fetched
+14,674,tmdb,,674,,ok,ok,kept: details and credits fetched
+15,1573,tmdb,,1573,,ok,ok,kept: details and credits fetched
+16,769,tmdb,,769,,ok,ok,kept: details and credits fetched
+17,105,tmdb,,105,,ok,ok,kept: details and credits fetched
+18,8471293,tmdb,,8471293,,not_found,not_found,dropped: tmdb has no film with this id
+19,121,tmdb,,121,,ok,ok,kept: details and credits fetched
+20,122917,tmdb,,122917,,ok,ok,kept: details and credits fetched
+21,120,tmdb,,120,,ok,ok,kept: details and credits fetched
+22,679,tmdb,,679,,ok,ok,kept: details and credits fetched
+23,1892,tmdb,,1892,,ok,ok,kept: details and credits fetched
+24,22,tmdb,,22,,ok,ok,kept: details and credits fetched
+25,24,tmdb,,24,,ok,ok,kept: details and credits fetched
+26,11,tmdb,,11,,ok,ok,kept: details and credits fetched
+27,278,tmdb,,278,,ok,ok,kept: details and credits fetched
+28,1726,tmdb,,1726,,ok,ok,kept: details and credits fetched
+29,863,tmdb,,863,,ok,ok,kept: details and credits fetched
+30,-1,invalid,,,,,,dropped: not a valid id
+31,299534,tmdb,,299534,,ok,ok,kept: details and credits fetched
+32,1572,tmdb,,1572,,ok,ok,kept: details and credits fetched
+33,24428,tmdb,,24428,,ok,ok,kept: details and credits fetched
+34,56292,tmdb,,56292,,ok,ok,kept: details and credits fetched
+35,9412887,tmdb,,9412887,,not_found,not_found,dropped: tmdb has no film with this id
+36,1893,tmdb,,1893,,ok,ok,kept: details and credits fetched
+37,810,tmdb,,810,,ok,ok,kept: details and credits fetched
+38,122,tmdb,,122,,ok,ok,kept: details and credits fetched
+39,68721,tmdb,,68721,,ok,ok,kept: details and credits fetched
+40,603,tmdb,,603,,ok,ok,kept: details and credits fetched
+41,1422,tmdb,,1422,,ok,ok,kept: details and credits fetched
+42,27205,tmdb,,27205,,ok,ok,kept: details and credits fetched
+43,603,tmdb,,603,40,,,dropped: duplicate of an earlier row
+44,9806,tmdb,,9806,,ok,ok,kept: details and credits fetched
+45,161,tmdb,,161,,ok,ok,kept: details and credits fetched
+46,862,tmdb,,862,,ok,ok,kept: details and credits fetched
+47,12445,tmdb,,12445,,ok,ok,kept: details and credits fetched
+48,274,tmdb,,274,,ok,ok,kept: details and credits fetched
+49,217,tmdb,,217,,ok,ok,kept: details and credits fetched
+50,87,tmdb,,87,,ok,ok,kept: details and credits fetched
+51,8355,tmdb,,8355,,ok,ok,kept: details and credits fetched
+52,2502,tmdb,,2502,,ok,ok,kept: details and credits fetched
+53,562,tmdb,,562,,ok,ok,kept: details and credits fetched
+54,808,tmdb,,808,,ok,ok,kept: details and credits fetched
+55,1891,tmdb,,1891,,ok,ok,kept: details and credits fetched
+56,1124,tmdb,,1124,,ok,ok,kept: details and credits fetched
+57,299536,tmdb,,299536,,ok,ok,kept: details and credits fetched
+58,111,tmdb,,111,,ok,ok,kept: details and credits fetched
+59,41513,tmdb,,41513,,ok,ok,kept: details and credits fetched
+60,278,tmdb,,278,27,,,dropped: duplicate of an earlier row
+61,10681,tmdb,,10681,,ok,ok,kept: details and credits fetched
+62,641,tmdb,,641,,ok,ok,kept: details and credits fetched
+63,78,tmdb,,78,,ok,ok,kept: details and credits fetched
+64,425,tmdb,,425,,ok,ok,kept: details and credits fetched
+65,329,tmdb,,329,,ok,ok,kept: details and credits fetched
+66,238,tmdb,,238,,ok,ok,kept: details and credits fetched
+67,240,tmdb,,240,,ok,ok,kept: details and credits fetched
+68,301528,tmdb,,301528,,ok,ok,kept: details and credits fetched
+69,,blank,,,,,,dropped: blank row
+70,163,tmdb,,163,,ok,ok,kept: details and credits fetched
+71,129,tmdb,,129,,ok,ok,kept: details and credits fetched
+72,348,tmdb,,348,,ok,ok,kept: details and credits fetched
+73,8471294,tmdb,,8471294,,not_found,not_found,dropped: tmdb has no film with this id
+74,12444,tmdb,,12444,,ok,ok,kept: details and credits fetched
+75,13,tmdb,,13,,ok,ok,kept: details and credits fetched
+76,429,tmdb,,429,,ok,ok,kept: details and credits fetched
+77,85,tmdb,,85,,ok,ok,kept: details and credits fetched
+78,956,tmdb,,956,,ok,ok,kept: details and credits fetched
+79,605,tmdb,,605,,ok,ok,kept: details and credits fetched
+80,550,tmdb,,550,,ok,ok,kept: details and credits fetched
+81,672,tmdb,,672,,ok,ok,kept: details and credits fetched
+82,1865,tmdb,,1865,,ok,ok,kept: details and credits fetched
+83,671,tmdb,,671,,ok,ok,kept: details and credits fetched
+84,77,tmdb,,77,,ok,ok,kept: details and credits fetched
+85,809,tmdb,,809,,ok,ok,kept: details and credits fetched
+86,1571,tmdb,,1571,,ok,ok,kept: details and credits fetched
+87,954,tmdb,,954,,ok,ok,kept: details and credits fetched
+88,950,tmdb,,950,,ok,ok,kept: details and credits fetched
+89,675,tmdb,,675,,ok,ok,kept: details and credits fetched
+90,1891,tmdb,,1891,55,,,dropped: duplicate of an earlier row
+91,155,tmdb,,155,2,,,dropped: duplicate of an earlier row
+92,767,tmdb,,767,,ok,ok,kept: details and credits fetched
+93,9412888,tmdb,,9412888,,not_found,not_found,dropped: tmdb has no film with this id
+94,550,tmdb,,550,80,,,dropped: duplicate of an earlier row
+95,tt0468569,imdb,tt0468569,155,2,,,dropped: duplicate of an earlier row
+96,298,tmdb,,298,,ok,ok,kept: details and credits fetched
+97,285,tmdb,,285,,ok,ok,kept: details and credits fetched
+98,99861,tmdb,,99861,,ok,ok,kept: details and credits fetched
+99,7733901,tmdb,,7733901,,not_found,not_found,dropped: tmdb has no film with this id
+100,578,tmdb,,578,,ok,ok,kept: details and credits fetched
+101,10193,tmdb,,10193,,ok,ok,kept: details and credits fetched
+102,680,tmdb,,680,8,,,dropped: duplicate of an earlier row
+103,177677,tmdb,,177677,,ok,ok,kept: details and credits fetched
+104,585,tmdb,,585,,ok,ok,kept: details and credits fetched
+105,57158,tmdb,,57158,,ok,ok,kept: details and credits fetched
+106,280,tmdb,,280,,ok,ok,kept: details and credits fetched
+107,89,tmdb,,89,,ok,ok,kept: details and credits fetched
+108,1894,tmdb,,1894,,ok,ok,kept: details and credits fetched
+109,2503,tmdb,,2503,,ok,ok,kept: details and credits fetched
+110,76341,tmdb,,76341,,ok,ok,kept: details and credits fetched
+111,N/A,placeholder,,,,,,"dropped: placeholder text, not an id"
+112,2501,tmdb,,2501,,ok,ok,kept: details and credits fetched
+113,424,tmdb,,424,,ok,ok,kept: details and credits fetched
+114,604,tmdb,,604,,ok,ok,kept: details and credits fetched
+115,196,tmdb,,196,,ok,ok,kept: details and credits fetched
+116,393,tmdb,,393,,ok,ok,kept: details and credits fetched
+117,218,tmdb,,218,,ok,ok,kept: details and credits fetched
+118,10192,tmdb,,10192,,ok,ok,kept: details and credits fetched
+119,534,tmdb,,534,,ok,ok,kept: details and credits fetched
+120,330,tmdb,,330,,ok,ok,kept: details and credits fetched
+121,1895,tmdb,,1895,,ok,ok,kept: details and credits fetched
+122,272,tmdb,,272,,ok,ok,kept: details and credits fetched
+123,49051,tmdb,,49051,,ok,ok,kept: details and credits fetched
+124,166426,tmdb,,166426,,ok,ok,kept: details and credits fetched
+125,157336,tmdb,,157336,,ok,ok,kept: details and credits fetched
+126,620,tmdb,,620,,ok,ok,kept: details and credits fetched
+127,296,tmdb,,296,,ok,ok,kept: details and credits fetched
+128,8078,tmdb,,8078,,ok,ok,kept: details and credits fetched

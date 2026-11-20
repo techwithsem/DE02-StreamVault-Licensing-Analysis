@@ -1,0 +1,11 @@
+﻿flag,films_flagged
+flag_zero_budget,0
+flag_zero_revenue,0
+flag_round_revenue,4
+flag_tiny_budget,0
+flag_not_released,0
+flag_bad_date,0
+flag_pre_1990,19
+flag_same_title_year,0
+flag_alone_in_collection,9
+flag_extreme_return,11

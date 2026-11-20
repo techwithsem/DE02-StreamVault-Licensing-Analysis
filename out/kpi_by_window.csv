@@ -1,0 +1,5 @@
+﻿window,group,films,usable,median_multiple,mean_multiple,q1_multiple,q3_multiple,median_revenue,median_rating,share_under_2x
+all years,franchise,96,96,5.624,8.54,3.936,8.548,578937111.0,7.602,0.021
+all years,standalone,16,16,3.845,8.284,2.451,12.855,161802536.5,8.444,0.25
+2000 onward,franchise,63,63,5.052,5.411,3.821,6.29,786636033.0,7.45,0.016
+2000 onward,standalone,8,8,3.845,4.901,2.858,4.705,283195047.5,8.188,0.125

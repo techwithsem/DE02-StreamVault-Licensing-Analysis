@@ -1,0 +1,178 @@
+{
+  "path": "/collection/8354",
+  "http_status": 200,
+  "fetched_at": "2026-11-20T08:07:26+00:00",
+  "body": {
+    "id": 8354,
+    "name": "Ice Age Collection",
+    "original_language": "en",
+    "original_name": "Ice Age Collection",
+    "overview": "A collection of animated films centered around a woolly mammoth, a talkative sloth, a serious saber-toothed tiger, and a small squirrel, as they navigate through the Pleistocene Epoch.",
+    "poster_path": "/stQoHvo0q6ZcEkji2Z1wlAxKnDq.jpg",
+    "backdrop_path": "/2aMEn3wawIXva2xFFlQ2NClLEeW.jpg",
+    "parts": [
+      {
+        "adult": false,
+        "backdrop_path": "/scLQDnf1m2AqEEQSjAEdMRD6K9I.jpg",
+        "genre_ids": [
+          16,
+          35,
+          12,
+          10751
+        ],
+        "id": 57800,
+        "title": "Ice Age: Continental Drift",
+        "original_language": "en",
+        "original_title": "Ice Age: Continental Drift",
+        "overview": "Manny, Diego, and Sid embark upon another adventure after their continent is set adrift. Using an iceberg as a ship, they encounter sea creatures and battle pirates as they explore a new world.",
+        "popularity": 11.9256,
+        "poster_path": "/dfp1BZF7FxbBUyzHvMOI9t8NWDD.jpg",
+        "release_date": "2012-06-27",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.396,
+        "vote_count": 8386,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/tyVAGH1vw9JDgxPyTUQPn91nIYc.jpg",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          12
+        ],
+        "id": 425,
+        "title": "Ice Age",
+        "original_language": "en",
+        "original_title": "Ice Age",
+        "overview": "Manny the mammoth, Sid the loquacious sloth, and Diego the sabre-toothed tiger go on a comical quest to return a human baby back to his father, across a world on the brink of an ice age.",
+        "popularity": 18.2762,
+        "poster_path": "/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg",
+        "release_date": "2002-03-14",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.388,
+        "vote_count": 14839,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/6Ybbh8TrO8bkEfQXDedekLwVDfA.jpg",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          12
+        ],
+        "id": 8355,
+        "title": "Ice Age: Dawn of the Dinosaurs",
+        "original_language": "en",
+        "original_title": "Ice Age: Dawn of the Dinosaurs",
+        "overview": "Times are changing for Manny the moody mammoth, Sid the motor mouthed sloth and Diego the crafty saber-toothed tiger. Life heats up for our heroes when they meet some new and none-too-friendly neighbors – the mighty dinosaurs.",
+        "popularity": 12.8925,
+        "poster_path": "/cXOLaxcNjNAYmEx1trZxOTKhK3Q.jpg",
+        "release_date": "2009-06-26",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.784,
+        "vote_count": 9197,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/o1jr0UqVjxIZ1JnFzuVLN4ulWey.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          35,
+          12
+        ],
+        "id": 950,
+        "title": "Ice Age: The Meltdown",
+        "original_language": "en",
+        "original_title": "Ice Age: The Meltdown",
+        "overview": "Diego, Manny and Sid return in this sequel to the hit animated movie Ice Age. This time around, the deep freeze is over, and the ice-covered earth is starting to melt, which will destroy the trio's cherished valley. The impending disaster prompts them to reunite and warn all the other beasts about the desperate situation.",
+        "popularity": 10.9219,
+        "poster_path": "/zDduhCHasKQ9YOTvlOreHem7Wbi.jpg",
+        "release_date": "2006-03-29",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.733,
+        "vote_count": 10683,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rBEH34dgPMy1WuqZ0AFXR2ThmNo.jpg",
+        "genre_ids": [
+          12,
+          16,
+          10751,
+          35,
+          878
+        ],
+        "id": 278154,
+        "title": "Ice Age: Collision Course",
+        "original_language": "en",
+        "original_title": "Ice Age: Collision Course",
+        "overview": "Set after the events of Continental Drift, Scrat's epic pursuit of his elusive acorn catapults him outside of Earth, where he accidentally sets off a series of cosmic events that transform and threaten the planet. To save themselves from peril, Manny, Sid, Diego, and the rest of the herd leave their home and embark on a quest full of thrills and spills, highs and lows, laughter and adventure while traveling to exotic new lands and locations.",
+        "popularity": 10.9162,
+        "poster_path": "/tFzUkdhPOForVrEfvxydXfPLrZR.jpg",
+        "release_date": "2016-06-23",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.119,
+        "vote_count": 5044,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qw02SUqrrdTjAOPCFJBPyKaVf4z.jpg",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          12
+        ],
+        "id": 774825,
+        "title": "The Ice Age Adventures of Buck Wild",
+        "original_language": "en",
+        "original_title": "The Ice Age Adventures of Buck Wild",
+        "overview": "The fearless one-eyed weasel Buck teams up with mischievous possum brothers Crash & Eddie as they head off on a new adventure into Buck's home: The Dinosaur World.",
+        "popularity": 6.6581,
+        "poster_path": "/9ginbMWmt9y7PIHW1c9hnbIVWPm.jpg",
+        "release_date": "2022-01-28",
+        "softcore": false,
+        "video": false,
+        "vote_average": 6.533,
+        "vote_count": 1897,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/nTPXdweuKyYcNyFpyumEY1pCWvX.jpg",
+        "genre_ids": [
+          12,
+          16,
+          10751,
+          35
+        ],
+        "id": 1384758,
+        "title": "Ice Age: Boiling Point",
+        "original_language": "en",
+        "original_title": "Ice Age: Boiling Point",
+        "overview": "A dinosaur-and-lava-filled madcap adventure takes Manny, Sid, Diego, Ellie, Buck, acorn-obsessed Scrat – this time joined by Baby Scrat and the enormous Jurassic Scrat – and the rest of the herd to visit never before-seen corners of the treacherous Lost World.",
+        "popularity": 14.958,
+        "poster_path": "/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
+        "release_date": "2027-01-28",
+        "softcore": false,
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "media_type": "movie"
+      }
+    ]
+  }
+}

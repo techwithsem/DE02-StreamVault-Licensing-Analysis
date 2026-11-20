@@ -1,0 +1,99 @@
+﻿tmdb_id,film,why_chosen,field,pipeline_output,snapshot,live,class,snapshot_at,checked_at
+11,Star Wars,extreme: highest return,title,Star Wars,Star Wars,Star Wars,match,2026-11-20T07:54:41+00:00,2026-11-20T10:36:11+00:00
+578,Jaws,extreme: highest return,title,Jaws,Jaws,Jaws,match,2026-11-20T07:55:57+00:00,2026-11-20T10:36:11+00:00
+278,The Shawshank Redemption,extreme: lowest return,title,The Shawshank Redemption,The Shawshank Redemption,The Shawshank Redemption,match,2026-11-20T07:54:42+00:00,2026-11-20T10:36:11+00:00
+78,Blade Runner,extreme: lowest return,title,Blade Runner,Blade Runner,Blade Runner,match,2026-11-20T07:55:18+00:00,2026-11-20T10:36:11+00:00
+155,The Dark Knight,most changed: named on the most input rows,title,The Dark Knight,The Dark Knight,The Dark Knight,match,2026-11-20T07:54:14+00:00,2026-11-20T10:36:11+00:00
+585,"Monsters, Inc.",most changed: round revenue,title,"Monsters, Inc.","Monsters, Inc.","Monsters, Inc.",match,2026-11-20T07:56:01+00:00,2026-11-20T10:36:11+00:00
+809,Shrek 2,most changed: most co-directors,title,Shrek 2,Shrek 2,Shrek 2,match,2026-11-20T07:55:42+00:00,2026-11-20T10:36:11+00:00
+863,Toy Story 2,boundary: last release before 2000,title,Toy Story 2,Toy Story 2,Toy Story 2,match,2026-11-20T07:54:44+00:00,2026-11-20T10:36:11+00:00
+955,Mission: Impossible II,boundary: first release from 2000,title,Mission: Impossible II,Mission: Impossible II,Mission: Impossible II,match,2026-11-20T07:54:25+00:00,2026-11-20T10:36:11+00:00
+8587,The Lion King,boundary: only film of its franchise on the list,title,The Lion King,The Lion King,The Lion King,match,2026-11-20T07:54:26+00:00,2026-11-20T10:36:11+00:00
+1422,The Departed,random (seed 42),title,The Departed,The Departed,The Departed,match,2026-11-20T07:54:56+00:00,2026-11-20T10:36:11+00:00
+671,Harry Potter and the Philosopher's Stone,random (seed 42),title,Harry Potter and the Philosopher's Stone,Harry Potter and the Philosopher's Stone,Harry Potter and the Philosopher's Stone,match,2026-11-20T07:55:39+00:00,2026-11-20T10:36:11+00:00
+956,Mission: Impossible III,random (seed 42),title,Mission: Impossible III,Mission: Impossible III,Mission: Impossible III,match,2026-11-20T07:55:34+00:00,2026-11-20T10:36:11+00:00
+41513,The Smurfs,random (seed 42),title,The Smurfs,The Smurfs,The Smurfs,match,2026-11-20T07:55:15+00:00,2026-11-20T10:36:11+00:00
+11,Star Wars,extreme: highest return,release_date,1977-05-25,1977-05-25,1977-05-25,match,2026-11-20T07:54:41+00:00,2026-11-20T10:36:11+00:00
+578,Jaws,extreme: highest return,release_date,1975-06-20,1975-06-20,1975-06-20,match,2026-11-20T07:55:57+00:00,2026-11-20T10:36:11+00:00
+278,The Shawshank Redemption,extreme: lowest return,release_date,1994-09-23,1994-09-23,1994-09-23,match,2026-11-20T07:54:42+00:00,2026-11-20T10:36:11+00:00
+78,Blade Runner,extreme: lowest return,release_date,1982-06-25,1982-06-25,1982-06-25,match,2026-11-20T07:55:18+00:00,2026-11-20T10:36:11+00:00
+155,The Dark Knight,most changed: named on the most input rows,release_date,2008-07-16,2008-07-16,2008-07-16,match,2026-11-20T07:54:14+00:00,2026-11-20T10:36:11+00:00
+585,"Monsters, Inc.",most changed: round revenue,release_date,2001-11-01,2001-11-01,2001-11-01,match,2026-11-20T07:56:01+00:00,2026-11-20T10:36:11+00:00
+809,Shrek 2,most changed: most co-directors,release_date,2004-05-19,2004-05-19,2004-05-19,match,2026-11-20T07:55:42+00:00,2026-11-20T10:36:11+00:00
+863,Toy Story 2,boundary: last release before 2000,release_date,1999-10-30,1999-10-30,1999-10-30,match,2026-11-20T07:54:44+00:00,2026-11-20T10:36:11+00:00
+955,Mission: Impossible II,boundary: first release from 2000,release_date,2000-05-24,2000-05-24,2000-05-24,match,2026-11-20T07:54:25+00:00,2026-11-20T10:36:11+00:00
+8587,The Lion King,boundary: only film of its franchise on the list,release_date,1994-06-15,1994-06-15,1994-06-15,match,2026-11-20T07:54:26+00:00,2026-11-20T10:36:11+00:00
+1422,The Departed,random (seed 42),release_date,2006-10-04,2006-10-04,2006-10-04,match,2026-11-20T07:54:56+00:00,2026-11-20T10:36:11+00:00
+671,Harry Potter and the Philosopher's Stone,random (seed 42),release_date,2001-11-16,2001-11-16,2001-11-16,match,2026-11-20T07:55:39+00:00,2026-11-20T10:36:11+00:00
+956,Mission: Impossible III,random (seed 42),release_date,2006-04-25,2006-04-25,2006-04-25,match,2026-11-20T07:55:34+00:00,2026-11-20T10:36:11+00:00
+41513,The Smurfs,random (seed 42),release_date,2011-07-29,2011-07-29,2011-07-29,match,2026-11-20T07:55:15+00:00,2026-11-20T10:36:11+00:00
+11,Star Wars,extreme: highest return,budget,11000000,11000000,11000000,match,2026-11-20T07:54:41+00:00,2026-11-20T10:36:11+00:00
+578,Jaws,extreme: highest return,budget,7000000,7000000,7000000,match,2026-11-20T07:55:57+00:00,2026-11-20T10:36:11+00:00
+278,The Shawshank Redemption,extreme: lowest return,budget,25000000,25000000,25000000,match,2026-11-20T07:54:42+00:00,2026-11-20T10:36:11+00:00
+78,Blade Runner,extreme: lowest return,budget,28000000,28000000,28000000,match,2026-11-20T07:55:18+00:00,2026-11-20T10:36:11+00:00
+155,The Dark Knight,most changed: named on the most input rows,budget,185000000,185000000,185000000,match,2026-11-20T07:54:14+00:00,2026-11-20T10:36:11+00:00
+585,"Monsters, Inc.",most changed: round revenue,budget,130000000,130000000,130000000,match,2026-11-20T07:56:01+00:00,2026-11-20T10:36:11+00:00
+809,Shrek 2,most changed: most co-directors,budget,150000000,150000000,150000000,match,2026-11-20T07:55:42+00:00,2026-11-20T10:36:11+00:00
+863,Toy Story 2,boundary: last release before 2000,budget,90000000,90000000,90000000,match,2026-11-20T07:54:44+00:00,2026-11-20T10:36:11+00:00
+955,Mission: Impossible II,boundary: first release from 2000,budget,125000000,125000000,125000000,match,2026-11-20T07:54:25+00:00,2026-11-20T10:36:11+00:00
+8587,The Lion King,boundary: only film of its franchise on the list,budget,45000000,45000000,45000000,match,2026-11-20T07:54:26+00:00,2026-11-20T10:36:11+00:00
+1422,The Departed,random (seed 42),budget,90000000,90000000,90000000,match,2026-11-20T07:54:56+00:00,2026-11-20T10:36:11+00:00
+671,Harry Potter and the Philosopher's Stone,random (seed 42),budget,125000000,125000000,125000000,match,2026-11-20T07:55:39+00:00,2026-11-20T10:36:11+00:00
+956,Mission: Impossible III,random (seed 42),budget,150000000,150000000,150000000,match,2026-11-20T07:55:34+00:00,2026-11-20T10:36:11+00:00
+41513,The Smurfs,random (seed 42),budget,110000000,110000000,110000000,match,2026-11-20T07:55:15+00:00,2026-11-20T10:36:11+00:00
+11,Star Wars,extreme: highest return,revenue,775398007,775398007,775398007,match,2026-11-20T07:54:41+00:00,2026-11-20T10:36:11+00:00
+578,Jaws,extreme: highest return,revenue,470653000,470653000,470653000,match,2026-11-20T07:55:57+00:00,2026-11-20T10:36:11+00:00
+278,The Shawshank Redemption,extreme: lowest return,revenue,28341469,28341469,28341469,match,2026-11-20T07:54:42+00:00,2026-11-20T10:36:11+00:00
+78,Blade Runner,extreme: lowest return,revenue,41722424,41722424,41722424,match,2026-11-20T07:55:18+00:00,2026-11-20T10:36:11+00:00
+155,The Dark Knight,most changed: named on the most input rows,revenue,1008480529,1008480529,1008480529,match,2026-11-20T07:54:14+00:00,2026-11-20T10:36:11+00:00
+585,"Monsters, Inc.",most changed: round revenue,revenue,650000000,650000000,650000000,match,2026-11-20T07:56:01+00:00,2026-11-20T10:36:11+00:00
+809,Shrek 2,most changed: most co-directors,revenue,932542741,932542741,932542741,match,2026-11-20T07:55:42+00:00,2026-11-20T10:36:11+00:00
+863,Toy Story 2,boundary: last release before 2000,revenue,497375404,497375404,497375404,match,2026-11-20T07:54:44+00:00,2026-11-20T10:36:11+00:00
+955,Mission: Impossible II,boundary: first release from 2000,revenue,546388108,546388108,546388108,match,2026-11-20T07:54:25+00:00,2026-11-20T10:36:11+00:00
+8587,The Lion King,boundary: only film of its franchise on the list,revenue,763455561,763455561,763455561,match,2026-11-20T07:54:26+00:00,2026-11-20T10:36:11+00:00
+1422,The Departed,random (seed 42),revenue,291465000,291465000,291465000,match,2026-11-20T07:54:56+00:00,2026-11-20T10:36:11+00:00
+671,Harry Potter and the Philosopher's Stone,random (seed 42),revenue,1029374615,1029374615,1029374615,match,2026-11-20T07:55:39+00:00,2026-11-20T10:36:11+00:00
+956,Mission: Impossible III,random (seed 42),revenue,398479497,398479497,398479497,match,2026-11-20T07:55:34+00:00,2026-11-20T10:36:11+00:00
+41513,The Smurfs,random (seed 42),revenue,563749323,563749323,563749323,match,2026-11-20T07:55:15+00:00,2026-11-20T10:36:11+00:00
+11,Star Wars,extreme: highest return,collection_id,10,10,10,match,2026-11-20T07:54:41+00:00,2026-11-20T10:36:11+00:00
+578,Jaws,extreme: highest return,collection_id,2366,2366,2366,match,2026-11-20T07:55:57+00:00,2026-11-20T10:36:11+00:00
+278,The Shawshank Redemption,extreme: lowest return,collection_id,,,,match,2026-11-20T07:54:42+00:00,2026-11-20T10:36:11+00:00
+78,Blade Runner,extreme: lowest return,collection_id,422837,422837,422837,match,2026-11-20T07:55:18+00:00,2026-11-20T10:36:11+00:00
+155,The Dark Knight,most changed: named on the most input rows,collection_id,263,263,263,match,2026-11-20T07:54:14+00:00,2026-11-20T10:36:11+00:00
+585,"Monsters, Inc.",most changed: round revenue,collection_id,137696,137696,137696,match,2026-11-20T07:56:01+00:00,2026-11-20T10:36:11+00:00
+809,Shrek 2,most changed: most co-directors,collection_id,2150,2150,2150,match,2026-11-20T07:55:42+00:00,2026-11-20T10:36:11+00:00
+863,Toy Story 2,boundary: last release before 2000,collection_id,10194,10194,10194,match,2026-11-20T07:54:44+00:00,2026-11-20T10:36:11+00:00
+955,Mission: Impossible II,boundary: first release from 2000,collection_id,87359,87359,87359,match,2026-11-20T07:54:25+00:00,2026-11-20T10:36:11+00:00
+8587,The Lion King,boundary: only film of its franchise on the list,collection_id,94032,94032,94032,match,2026-11-20T07:54:26+00:00,2026-11-20T10:36:11+00:00
+1422,The Departed,random (seed 42),collection_id,,,,match,2026-11-20T07:54:56+00:00,2026-11-20T10:36:11+00:00
+671,Harry Potter and the Philosopher's Stone,random (seed 42),collection_id,1241,1241,1241,match,2026-11-20T07:55:39+00:00,2026-11-20T10:36:11+00:00
+956,Mission: Impossible III,random (seed 42),collection_id,87359,87359,87359,match,2026-11-20T07:55:34+00:00,2026-11-20T10:36:11+00:00
+41513,The Smurfs,random (seed 42),collection_id,134897,134897,134897,match,2026-11-20T07:55:15+00:00,2026-11-20T10:36:11+00:00
+11,Star Wars,extreme: highest return,directors,George Lucas,George Lucas,George Lucas,match,2026-11-20T07:54:41+00:00,2026-11-20T10:36:11+00:00
+578,Jaws,extreme: highest return,directors,Steven Spielberg,Steven Spielberg,Steven Spielberg,match,2026-11-20T07:55:57+00:00,2026-11-20T10:36:11+00:00
+278,The Shawshank Redemption,extreme: lowest return,directors,Frank Darabont,Frank Darabont,Frank Darabont,match,2026-11-20T07:54:42+00:00,2026-11-20T10:36:11+00:00
+78,Blade Runner,extreme: lowest return,directors,Ridley Scott,Ridley Scott,Ridley Scott,match,2026-11-20T07:55:18+00:00,2026-11-20T10:36:11+00:00
+155,The Dark Knight,most changed: named on the most input rows,directors,Christopher Nolan,Christopher Nolan,Christopher Nolan,match,2026-11-20T07:54:14+00:00,2026-11-20T10:36:11+00:00
+585,"Monsters, Inc.",most changed: round revenue,directors,Pete Docter,Pete Docter,Pete Docter,match,2026-11-20T07:56:01+00:00,2026-11-20T10:36:11+00:00
+809,Shrek 2,most changed: most co-directors,directors,"Andrew Adamson, Conrad Vernon, Kelly Asbury","Andrew Adamson, Conrad Vernon, Kelly Asbury","Andrew Adamson, Conrad Vernon, Kelly Asbury",match,2026-11-20T07:55:42+00:00,2026-11-20T10:36:11+00:00
+863,Toy Story 2,boundary: last release before 2000,directors,John Lasseter,John Lasseter,John Lasseter,match,2026-11-20T07:54:44+00:00,2026-11-20T10:36:11+00:00
+955,Mission: Impossible II,boundary: first release from 2000,directors,John Woo,John Woo,John Woo,match,2026-11-20T07:54:25+00:00,2026-11-20T10:36:11+00:00
+8587,The Lion King,boundary: only film of its franchise on the list,directors,"Rob Minkoff, Roger Allers","Rob Minkoff, Roger Allers","Rob Minkoff, Roger Allers",match,2026-11-20T07:54:26+00:00,2026-11-20T10:36:11+00:00
+1422,The Departed,random (seed 42),directors,Martin Scorsese,Martin Scorsese,Martin Scorsese,match,2026-11-20T07:54:56+00:00,2026-11-20T10:36:11+00:00
+671,Harry Potter and the Philosopher's Stone,random (seed 42),directors,Chris Columbus,Chris Columbus,Chris Columbus,match,2026-11-20T07:55:39+00:00,2026-11-20T10:36:11+00:00
+956,Mission: Impossible III,random (seed 42),directors,J.J. Abrams,J.J. Abrams,J.J. Abrams,match,2026-11-20T07:55:34+00:00,2026-11-20T10:36:11+00:00
+41513,The Smurfs,random (seed 42),directors,Raja Gosnell,Raja Gosnell,Raja Gosnell,match,2026-11-20T07:55:15+00:00,2026-11-20T10:36:11+00:00
+11,Star Wars,extreme: highest return,lead_actor,Mark Hamill,Mark Hamill,Mark Hamill,match,2026-11-20T07:54:41+00:00,2026-11-20T10:36:11+00:00
+578,Jaws,extreme: highest return,lead_actor,Roy Scheider,Roy Scheider,Roy Scheider,match,2026-11-20T07:55:57+00:00,2026-11-20T10:36:11+00:00
+278,The Shawshank Redemption,extreme: lowest return,lead_actor,Tim Robbins,Tim Robbins,Tim Robbins,match,2026-11-20T07:54:42+00:00,2026-11-20T10:36:11+00:00
+78,Blade Runner,extreme: lowest return,lead_actor,Harrison Ford,Harrison Ford,Harrison Ford,match,2026-11-20T07:55:18+00:00,2026-11-20T10:36:11+00:00
+155,The Dark Knight,most changed: named on the most input rows,lead_actor,Christian Bale,Christian Bale,Christian Bale,match,2026-11-20T07:54:14+00:00,2026-11-20T10:36:11+00:00
+585,"Monsters, Inc.",most changed: round revenue,lead_actor,John Goodman,John Goodman,John Goodman,match,2026-11-20T07:56:01+00:00,2026-11-20T10:36:11+00:00
+809,Shrek 2,most changed: most co-directors,lead_actor,Mike Myers,Mike Myers,Mike Myers,match,2026-11-20T07:55:42+00:00,2026-11-20T10:36:11+00:00
+863,Toy Story 2,boundary: last release before 2000,lead_actor,Tom Hanks,Tom Hanks,Tom Hanks,match,2026-11-20T07:54:44+00:00,2026-11-20T10:36:11+00:00
+955,Mission: Impossible II,boundary: first release from 2000,lead_actor,Tom Cruise,Tom Cruise,Tom Cruise,match,2026-11-20T07:54:25+00:00,2026-11-20T10:36:11+00:00
+8587,The Lion King,boundary: only film of its franchise on the list,lead_actor,Matthew Broderick,Matthew Broderick,Matthew Broderick,match,2026-11-20T07:54:26+00:00,2026-11-20T10:36:11+00:00
+1422,The Departed,random (seed 42),lead_actor,Leonardo DiCaprio,Leonardo DiCaprio,Leonardo DiCaprio,match,2026-11-20T07:54:56+00:00,2026-11-20T10:36:11+00:00
+671,Harry Potter and the Philosopher's Stone,random (seed 42),lead_actor,Daniel Radcliffe,Daniel Radcliffe,Daniel Radcliffe,match,2026-11-20T07:55:39+00:00,2026-11-20T10:36:11+00:00
+956,Mission: Impossible III,random (seed 42),lead_actor,Tom Cruise,Tom Cruise,Tom Cruise,match,2026-11-20T07:55:34+00:00,2026-11-20T10:36:11+00:00
+41513,The Smurfs,random (seed 42),lead_actor,Katy Perry,Katy Perry,Katy Perry,match,2026-11-20T07:55:15+00:00,2026-11-20T10:36:11+00:00

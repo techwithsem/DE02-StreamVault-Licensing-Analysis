@@ -1,0 +1,59 @@
+{
+  "path": "/collection/2883",
+  "http_status": 200,
+  "fetched_at": "2026-11-20T08:07:22+00:00",
+  "body": {
+    "id": 2883,
+    "name": "Kill Bill Collection",
+    "original_language": "en",
+    "original_name": "Kill Bill Collection",
+    "overview": "The Kill Bill Collection is a series of thrilling revenge dramas directed by Quentin Tarantino. Inspired by Hong Kong martial arts movies, Japanese samurai films, and Italian spaghetti westerns, these movies are characterized by their stylized violence, pop culture references, and extensive use of popular music. Featuring Uma Thurman in the iconic role of The Bride, the Kill Bill films have become cult classics that continue to captivate audiences worldwide.",
+    "poster_path": "/tf1nUtw3LJGUGv1EFFi23iz6ngr.jpg",
+    "backdrop_path": "/voSMLsbi3f0YMGuC8DvflOEB3lo.jpg",
+    "parts": [
+      {
+        "adult": false,
+        "backdrop_path": "/iffzIhuLAO38Po6sh1s6ZEVwlNL.jpg",
+        "genre_ids": [
+          28,
+          80
+        ],
+        "id": 24,
+        "title": "Kill Bill: Vol. 1",
+        "original_language": "en",
+        "original_title": "Kill Bill: Vol. 1",
+        "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
+        "popularity": 14.9486,
+        "poster_path": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
+        "release_date": "2003-10-10",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.97,
+        "vote_count": 19754,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pgG6tzJzC8mjGqhaT8IWwEk00xf.jpg",
+        "genre_ids": [
+          28,
+          80,
+          53
+        ],
+        "id": 393,
+        "title": "Kill Bill: Vol. 2",
+        "original_language": "en",
+        "original_title": "Kill Bill: Vol. 2",
+        "overview": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
+        "popularity": 11.3388,
+        "poster_path": "/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
+        "release_date": "2004-04-16",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.872,
+        "vote_count": 15699,
+        "media_type": "movie"
+      }
+    ]
+  }
+}

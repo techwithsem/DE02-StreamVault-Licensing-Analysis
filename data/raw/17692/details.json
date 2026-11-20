@@ -1,0 +1,78 @@
+{
+  "path": "/movie/17692",
+  "http_status": 200,
+  "fetched_at": "2026-11-20T08:07:45+00:00",
+  "body": {
+    "adult": false,
+    "backdrop_path": "/aJC36J0hKjKJwNjVhdDahhl8j7S.jpg",
+    "belongs_to_collection": {
+      "id": 2366,
+      "name": "Jaws Collection",
+      "poster_path": "/ckwrReFkBTHQ2con1Ewm3QSmfsQ.jpg",
+      "backdrop_path": "/us13Po7SYoHl9wBNVcz04t0oh7F.jpg"
+    },
+    "budget": 20500000,
+    "genres": [
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 27,
+        "name": "Horror"
+      }
+    ],
+    "homepage": "",
+    "id": 17692,
+    "imdb_id": "tt0085750",
+    "origin_country": [],
+    "original_language": "en",
+    "original_title": "Jaws 3-D",
+    "overview": "A giant thirty-five-foot shark becomes trapped in a SeaWorld theme park and it's up to the sons of police chief Brody to rescue everyone.",
+    "popularity": 3.5348,
+    "poster_path": "/kqDXj53F9paqVGJLGfHtz7giJ3s.jpg",
+    "production_companies": [
+      {
+        "id": 79415,
+        "logo_path": null,
+        "name": "MCA  Theatricals",
+        "origin_country": ""
+      },
+      {
+        "id": 33,
+        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 4904,
+        "logo_path": null,
+        "name": "Alan Landsburg Productions",
+        "origin_country": ""
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1983-07-22",
+    "revenue": 87987056,
+    "runtime": 99,
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "The third dimension is terror.",
+    "title": "Jaws 3-D",
+    "video": false,
+    "vote_average": 4.5,
+    "vote_count": 1478
+  }
+}

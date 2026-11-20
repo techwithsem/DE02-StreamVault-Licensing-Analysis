@@ -1,0 +1,12 @@
+﻿check,passed,hard,detail
+every input row has an outcome,True,True,127 input rows
+one film row per kept id,True,True,"112 film rows, 112 kept ids"
+film id is unique,True,True,
+credits belong to the film asked for,True,True,
+every film has cast,True,True,112 of 112 films have cast rows
+every film has a lead actor (billing order 0),True,True,
+every film has a director,True,True,112 of 112 films
+imdb id is unique across films,True,False,
+every number and date could be read,True,False,0 values could not be read (see parse_report.csv)
+no money is negative,True,True,
+release year is plausible (1900 to next year),True,True,1966 to 2019

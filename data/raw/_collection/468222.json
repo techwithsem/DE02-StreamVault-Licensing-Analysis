@@ -1,0 +1,86 @@
+{
+  "path": "/collection/468222",
+  "http_status": 200,
+  "fetched_at": "2026-11-20T08:07:24+00:00",
+  "body": {
+    "id": 468222,
+    "name": "The Incredibles Collection",
+    "original_language": "en",
+    "original_name": "The Incredibles Collection",
+    "overview": "The Incredibles Collection is an American animated film series produced by Disney and created by Pixar Animation Studios.",
+    "poster_path": "/l7GqbzkJwowYRIXAtUz2iCPi64a.jpg",
+    "backdrop_path": "/6oi6V1O9MJRNnfV8E9JMntmFqBD.jpg",
+    "parts": [
+      {
+        "adult": false,
+        "backdrop_path": "/lxwzY9vNwjDgxWKt3zZ6zcU6rEJ.jpg",
+        "genre_ids": [
+          28,
+          12,
+          16,
+          10751
+        ],
+        "id": 9806,
+        "title": "The Incredibles",
+        "original_language": "en",
+        "original_title": "The Incredibles",
+        "overview": "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
+        "popularity": 16.3438,
+        "poster_path": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+        "release_date": "2004-10-27",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.73,
+        "vote_count": 19562,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mabuNsGJgRuCTuGqjFkWe1xdu19.jpg",
+        "genre_ids": [
+          28,
+          12,
+          16,
+          10751
+        ],
+        "id": 260513,
+        "title": "Incredibles 2",
+        "original_language": "en",
+        "original_title": "Incredibles 2",
+        "overview": "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.",
+        "popularity": 10.9539,
+        "poster_path": "/9lFKBtaVIhP7E2Pk0IY1CwTKTMZ.jpg",
+        "release_date": "2018-06-14",
+        "softcore": false,
+        "video": false,
+        "vote_average": 7.451,
+        "vote_count": 14102,
+        "media_type": "movie"
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pZUWtObJ3wacsYlgIUUilIrDpZD.jpg",
+        "genre_ids": [
+          16,
+          28,
+          12,
+          878,
+          10751
+        ],
+        "id": 1327821,
+        "title": "Incredibles 3",
+        "original_language": "en",
+        "original_title": "Incredibles 3",
+        "overview": "Thanks to entrepreneur Winston Deavor, superheroes are legal again, ushering in a new era for the world’s supers. But while Dash and Violet secretly take to the streets at night to prove their worth, Bob finds himself facing a threat unlike any he’s encountered before—and questioning whether there’s still a place for him in a world that no longer seems to need Mr. Incredible.",
+        "popularity": 2.4219,
+        "poster_path": "/4pGPF8LuneSJKGnfgO70W3zHChF.jpg",
+        "release_date": "2028-06-14",
+        "softcore": false,
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "media_type": "movie"
+      }
+    ]
+  }
+}
